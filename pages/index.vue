@@ -1,25 +1,39 @@
 <template>
   <div>
     <carrosel></carrosel>
-    <h1>Bem-vindo a minha primeira página vue!</h1>
+    <b-container fluid>
+      <b-row class="d-flex justify-content-center">
+        <h1>Bem-vindo a Vilo Vincenzzi!</h1>
+      </b-row>
+    </b-container>
 
-    <b-row cols="3">
-      <b-col>
-        <card
-          titulo="Titulo ok"
-          alt="card de apresentacao"
-          texto="texto padrão"
-        ></card>
-      </b-col>
+    <b-container fluid>
+      <b-row cols="3">
+        <b-col>
+          <card
+            titulo="Titulo ok"
+            alt="card de apresentacao"
+            texto="texto padrão"
+          ></card>
+        </b-col>
 
-      <b-col>
-        <card></card>
-      </b-col>
+        <b-col>
+          <card
+            titulo="Titulo ok"
+            alt="card de apresentacao"
+            texto="texto padrão"
+          ></card>
+        </b-col>
 
-      <b-col>
-        <card></card>
-      </b-col>
-    </b-row>
+        <b-col>
+          <card
+            titulo="Titulo ok"
+            alt="card de apresentacao"
+            texto="texto padrão"
+          ></card>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
