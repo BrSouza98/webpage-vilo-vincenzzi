@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="configuracoes-globais">
     <div>
       <b-carousel
         id="carousel-no-animation"
@@ -14,6 +14,40 @@
           img-src="~/assets/losa.jpg"
         ></b-carousel-slide>
       </b-carousel>
+
+      <b-container class="Apresentacao">
+        <b-row>
+          <b-col>
+            <h1>
+              APRESENTAÇÃO
+            </h1>
+            <p>
+              Nos primeiros passos, nas descobertas... A gente aprova seus
+              sonhos. A Educação Infantil do Colégio Vilo Vincenzzi Taquaritinga
+              foi inaugurada em 2005 após um intenso planejamento entre a
+              direção do colégio, coordenadores e professores. O sucesso
+              alcançado com a implantação desse projeto só foi possível graças à
+              credibilidade que o Vilo Vincenzzi conquistou em Taquaritinga ao
+              longo de sua história marcada por uma educação de qualidade. A
+              Educação Infantil do Sistema Vilo Vincenzzi de Ensino dá à criança
+              a oportunidade de aprender a conhecer o mundo que a rodeia e
+              amplia a sua capacidade de trabalhar com uma variedade de
+              assuntos. A unidade da Educação Infantil do Vilo Vincenzzi
+              Taquaritinga possui um espaço amplo onde as crianças desenvolvem
+              suas habilidades, além de toda estrutura necessária para garantir
+              o aprendizado cognitivo dos nossos alunos. A Educação Infantil do
+              Colégio Vilo Vincenzzi Taquaritinga oferece as seguintes turmas:
+            </p>
+
+            <ul>
+              <li>Berçario</li>
+              <li>Fundamental I</li>
+              <li>Fundamental II</li>
+              <li>Pré-primário</li>
+            </ul>
+          </b-col>
+        </b-row>
+      </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
@@ -95,7 +129,7 @@
                 alt=""
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
-                Sandra - Aux. Desenvolvimento Infantil
+                Sandra - Aux. Infantil
               </h3>
             </div>
           </b-col>
@@ -205,6 +239,26 @@ export default {};
 <style lang="scss" scoped>
 $borda: 2px solid #5e5e5e;
 
+.configuracoes-globais {
+  font-size: 1em;
+}
+
+.Apresentacao {
+  h1 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+    border-bottom: $borda;
+    text-align: center;
+  }
+
+  p {
+  }
+}
+
+b-container {
+  margin-top: 10px;
+}
+
 .configuraçãoPadrao {
   color: white;
   font-weight: bolder;
@@ -216,6 +270,7 @@ $borda: 2px solid #5e5e5e;
   h3 {
     font-weight: bolder;
     margin-top: 10px;
+    text-align: center;
   }
 }
 
@@ -253,5 +308,23 @@ $borda: 2px solid #5e5e5e;
 .fundoMarrom {
   background-color: #612c1f;
   border-bottom: $borda;
+}
+
+@media (max-width: 768px) {
+  .configuracoes-globais {
+    font-size: 0.9em;
+
+    .configuraçãoPadrao {
+      img {
+        border-radius: 3px;
+        width: 90%;
+      }
+
+      h3 {
+        font-weight: bolder;
+        font-size: 1.8em;
+      }
+    }
+  }
 }
 </style>
