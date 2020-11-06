@@ -1,7 +1,7 @@
 <template>
   <div>
-<div>
-        <b-carousel
+    <div>
+      <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
         no-animation
@@ -14,48 +14,121 @@
           img-src="~/assets/losa1.jpg"
         ></b-carousel-slide>
       </b-carousel>
-        </div>
-        <h2>Educação infantil</h2>
-        <p>
+    </div>
 
-A prática do Vilo Vicenzzi com os pequenos é de respeito à infância e ao cuidado físico, emocional e cognitivo. Eles são incentivados, diariamente, a participar de 
-desafios e descobertas e a conhecer a si mesmos, o outro e o mundo.
+    <div>
+      <b-container fluid class="configuraçãoPadrao">
+        <b-row>
+          <b-col>
+            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+            <ul>
+              <li>
+                Apostilas de tamanho e formato generosos (A3), com uma atividade
+                por página, imagens grandes e ilustrações de traçados grossos.
+              </li>
+              <li>
+                Folhas de maior espessura e tamanho exclusivo, para o melhor
+                manuseio pelas crianças nessa faixa etária.
+              </li>
+              <li>
+                Folha de abertura com tema que possibilita atividades envolvendo
+                artes, dramatizações, músicas, etc.
+              </li>
+            </ul>
+            <p>
+              <b>Matemática:</b> contagem, noção de quantidade, formas
+              geométricas e percepção visual de cores.
+            </p>
+            <p>
+              <b>Leitura e Letramento::</b> estimula a aprendizagem e o gosto
+              pela leitura.
+            </p>
+            <p><b>Descobertas:</b> compreensão do mundo em que vive.</p>
+            <p>
+              <b>Movimento:</b> desenvolve as habilidades necessárias para a
+              escrita e atividades de coordenação motora ampla e fina.
+            </p>
+            <p>
+              <b>Datas comemorativas:</b> conhecimento de datas importantes no
+              Brasil e no mundo.
+            </p>
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                class="mt-3 card-colaborador"
+                src="~/assets/positivo1.jpg"
+                alt=""
+              />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
 
-Para promover o desenvolvimento e a aprendizagem da criança, o trabalho da apostila Positivo tem quatro eixos permeados pela afetividade e brincadeira:
-</p>
-<img src="~/assets/positivo2.jpg" alt="">
-<p>As apostilas para este segmento são entregues em 8 distribuições e possuem formato diferenciado, apropriado às fases iniciais da infância, o que fornece apoio indispensável às atividades realizadas em aula. Elas trazem ícones que identificam os eixos cognitivos relacionados a cada campo de experiência envolvidos em cada matéria, e trabalham conteúdos de forma gradativa, apresentando e retomando 
-  conceitos e habilidades numa linha de aprendizado dinâmica que se torna interessante e desafiadora para o aluno.</p>
-  <img src="~/assets/positivo3.jpg" alt="">
-  <h2>Educação Infantil I e II - 2 e 3 anos</h2>
-<ul>  <li>
-    Apostilas de tamanho e formato generosos (A3), com uma atividade por página, imagens grandes e ilustrações de traçados grossos.</li>
-    <li>Folhas de maior espessura e tamanho exclusivo, para o melhor manuseio pelas crianças nessa faixa etária.</li>
-    <li>Folha de abertura com tema que possibilita atividades envolvendo artes, dramatizações, músicas, etc.</li></ul>
-    <p><b>Matemática:</b> contagem, noção de quantidade, formas geométricas e percepção visual de cores.</p>
-    <p><b>Leitura e Letramento::</b> estimula a aprendizagem e o gosto pela leitura.</p>
-    <p><b>Descobertas:</b> compreensão do mundo em que vive.</p>
-    <p><b>Movimento:</b> desenvolve as habilidades necessárias para a escrita e atividades de coordenação motora ampla e fina.</p>
-    <p><b>Datas comemorativas:</b> conhecimento de datas importantes no Brasil e no mundo. </p>
-    <b-container class="bv-example-row row">
-  <b-row>
-    <b-col><img src="~/assets/positivo.jpg" alt=""></b-col>
-    <b-col><img src="~/assets/positivo1.jpg" alt=""></b-col>
-  </b-row>
+    <div>
+      <b-container fluid class="configuraçãoPadrao">
+        <b-row>
+          <b-col>
+            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+            <p>
+              A prática do Vilo Vicenzzi com os pequenos é de respeito à
+              infância e ao cuidado físico, emocional e cognitivo. Eles são
+              incentivados, diariamente, a participar de desafios e descobertas
+              e a conhecer a si mesmos, o outro e o mundo. Para promover o
+              desenvolvimento e a aprendizagem da criança, o trabalho da
+              apostila Positivo tem quatro eixos permeados pela afetividade e
+              brincadeira:
+            </p>
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                class="mt-3 card-colaborador"
+                src="~/assets/positivo2.jpg"
+                alt=""
+              />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
 
-
-</b-container>
-</div>
+    <div>
+      <b-container fluid class="configuraçãoPadrao">
+        <b-row>
+          <b-col>
+            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+            <h2>Apostilas Positivo</h2>
+            <p>
+              As apostilas para este segmento são entregues em 8 distribuições e
+              possuem formato diferenciado, apropriado às fases iniciais da
+              infância, o que fornece apoio indispensável às atividades
+              realizadas em aula. Elas trazem ícones que identificam os eixos
+              cognitivos relacionados a cada campo de experiência envolvidos em
+              cada matéria, e trabalham conteúdos de forma gradativa,
+              apresentando e retomando conceitos e habilidades numa linha de
+              aprendizado dinâmica que se torna interessante e desafiadora para
+              o aluno.
+            </p>
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                class="mt-3 card-colaborador"
+                src="~/assets/positivo3.jpg"
+                alt=""
+              />
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-.img{
-  width: 30%;
-}
-</style>
+<style></style>
