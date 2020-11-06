@@ -2,6 +2,7 @@
   <div>
     <navbar></navbar>
     <Nuxt />
+    <rodape></rodape>
   </div>
 </template>
 

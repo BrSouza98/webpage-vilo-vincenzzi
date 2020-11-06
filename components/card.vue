@@ -1,48 +1,27 @@
 <template>
- <div id="app" class="cardConfig">
-    <b-card-group deck>
-      <b-card  :img-src="localImagem" :header="titulo" :alt="imagem-alt">
-        <b-card-text>{{texto}}</b-card-text>
-      </b-card>
+  <div>
+    <b-card
+      title="Card Title"
+      img-src="https://picsum.photos/600/300/?image=25"
+      img-alt="Image"
+      img-top
+      tag="article"
+      style="max-width: 20rem"
+      class="mb-2"
+    >
+      <b-card-text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </b-card-text>
 
-    </b-card-group>
+      <b-button href="#" variant="primary">Go somewhere</b-button>
+    </b-card>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'card',
-
-  props: ['titulo', 'imagem-alt', 'texto', 'localImagem'],
-
-  data(){
-    return{
-
-    }
-  }
-};
-
-
+export default {};
 </script>
 
-<style lang="scss" scoped>
-   .card-header {
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 0;
-    background-color: #3a3a3a;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    color: rgb(211, 211, 211);
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-}
-
-  .cardConfig{
-    margin: 20px;
-  }
-
-.card-img, .card-img-bottom {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
+<style>
 </style>
