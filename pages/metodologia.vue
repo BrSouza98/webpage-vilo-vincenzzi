@@ -19,7 +19,7 @@
     <div>
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
-          <b-col>
+          <b-col class="cor">
             <h2>Educação Infantil I e II - 2 e 3 anos</h2>
             <ul>
               <li>
@@ -56,7 +56,7 @@
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
-                class="mt-3 card-colaborador"
+                class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo1.jpg"
                 alt=""
               />
@@ -69,7 +69,7 @@
     <div>
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
-          <b-col>
+          <b-col class="cor">
             <h2>Educação Infantil I e II - 2 e 3 anos</h2>
             <p>
               A prática do Vilo Vicenzzi com os pequenos é de respeito à
@@ -84,7 +84,7 @@
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
-                class="mt-3 card-colaborador"
+                class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo2.jpg"
                 alt=""
               />
@@ -97,7 +97,7 @@
     <div>
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
-          <b-col>
+          <b-col class="cor">
             <h2>Educação Infantil I e II - 2 e 3 anos</h2>
             <h2>Apostilas Positivo</h2>
             <p>
@@ -115,7 +115,7 @@
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
-                class="mt-3 card-colaborador"
+                class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo3.jpg"
                 alt=""
               />
@@ -131,4 +131,20 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+h2{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.cor{
+  background-color: #f0f0f0;
+}
+
+img{
+  border-radius: 3px;
+  
+}
+</style>
+
