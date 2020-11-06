@@ -222,8 +222,9 @@ export default {
 .centro {
   text-align: center;
 }
+
 .fundo {
-  background-color: #fff;
+  background-color: #f0f0f0;
 }
 .corfundo {
   background-color: #ffffff;
