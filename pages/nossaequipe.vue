@@ -10,7 +10,7 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="Nossa equipe"
+          caption="Nossa equipee"
           img-src="~/assets/losa.jpg"
         ></b-carousel-slide>
       </b-carousel>
