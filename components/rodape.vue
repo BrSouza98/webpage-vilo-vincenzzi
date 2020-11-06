@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div style="background-color: black" class="d-flex justify-content-center">
+    <div style="background-color: rgb(40, 40, 40)" class="d-flex justify-content-center">
       Fatec - Taquaritinga {{ new Date().getFullYear() }}
     </div>
     
@@ -97,7 +97,7 @@
 
 <style scoped>
 .footer {
-  background-color: #333;
+  background-color:  #333;
   color: #fff;
   font-size: 18px;
   box-sizing: border-box;
