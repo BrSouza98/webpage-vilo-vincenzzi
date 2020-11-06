@@ -1,19 +1,17 @@
 <template>
   <div>
     <p>
-        Rodapé.
+      Rodapé.
     </p>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
-  div{
-    background-color: aquamarine;
-  }
-</style>>
+div {
+  background-color: aquamarine;
+}</style
+>>
