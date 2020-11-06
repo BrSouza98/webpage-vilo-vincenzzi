@@ -5,7 +5,11 @@
 
     <b-row cols="3">
       <b-col>
-        <card  header="Titulo do card" texto="lorem ipsum sit amet."></card>
+        <card
+          titulo="Titulo ok"
+          alt="card de apresentacao"
+          texto="texto padrão"
+        ></card>
       </b-col>
 
       <b-col>
@@ -20,12 +24,12 @@
 </template>
 
 <script>
-import cardVue from '../components/card.vue';
+import cardVue from "../components/card.vue";
 
 export default {
-    components:{
-        card: cardVue,
-    }
+  components: {
+    card: cardVue
+  }
 };
 </script>
 
