@@ -12,7 +12,7 @@
               <b-nav class="d-block">
                 <b-nav-item href="sobre">Sobre</b-nav-item>
                 <b-nav-item href="metodologia">Metodologia</b-nav-item>
-                <b-nav-item href="corpodocente">Corpo Docente</b-nav-item>
+                <b-nav-item href="nossaequipe">Nossa equipe</b-nav-item>
                 <b-nav-item
                   href="https://vilovicenzzi.wordpress.com/"
                   target="_blank"
