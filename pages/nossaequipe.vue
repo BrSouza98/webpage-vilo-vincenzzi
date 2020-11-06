@@ -1,6 +1,6 @@
 <template>
 <div>
-      <div>
+    <div>
       <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
@@ -10,7 +10,7 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="Nossa equipe"
+          caption="Sobre nós"
           img-src="~/assets/losa.jpg"
         ></b-carousel-slide>
       </b-carousel>
