@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-navbar toggleable="lg" align-h="between" class="w-100 d-flex">
+      <b-navbar toggleable="lg" align-h="between" class="w-100 d-flex justify-content-between">
         <b-navbar-brand href="/">Vilo Vincenzzi</b-navbar-brand>
         <b-button v-b-toggle.sidebar-right class="menu" variant="outline-dark">
           <b-icon icon="grid-fill"></b-icon>
