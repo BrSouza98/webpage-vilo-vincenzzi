@@ -1,4 +1,8 @@
 export default {
+  //GA
+  googleAnalytics: {
+    id: 'G-1V8QYYT1MT'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'webpage-vilo-vincenzzi',
@@ -11,11 +15,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  //GA
-  googleAnalytics: {
-    id: 'G-1V8QYYT1MT'
-  },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
   ],
