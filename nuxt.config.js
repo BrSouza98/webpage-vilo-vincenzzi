@@ -30,6 +30,11 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // Simple usage
+    '@nuxtjs/google-gtag',
+
+    // With options
+    ['@nuxtjs/google-gtag', { /* module options */ }]
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
