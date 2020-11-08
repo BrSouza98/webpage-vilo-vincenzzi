@@ -187,7 +187,7 @@
                 alt=""
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
-                Ludimila - Profª Jardim Inf. I
+                Ludmila Gambogi - Profª Jardim Inf. I
               </h3>
             </div>
           </b-col>
