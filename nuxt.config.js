@@ -1,8 +1,4 @@
 export default {
-  //GA
-  googleAnalytics: {
-    id: 'G-1V8QYYT1MT'
-  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'webpage-vilo-vincenzzi',
@@ -20,18 +16,13 @@ export default {
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: '~/plugins/ga.js', mode: 'client' }],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-    '@nuxtjs/google-analytics'
-  ],
-  googleAnalytics: {
-    id: 'G-8XTG1Z01E8'
-  },
+  buildModules: [],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
