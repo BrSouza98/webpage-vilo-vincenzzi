@@ -34,7 +34,7 @@ export default {
     '@nuxtjs/google-gtag'
   ],
   'google-gtag': {
-    id: 'G-8XTG1Z01E8',
+    id: 'UA-181924478-1',
     config: {
       anonymize_ip: true, // anonymize IP 
       send_page_view: false, // might be necessary to avoid duplicated page track on page reload
@@ -51,7 +51,7 @@ export default {
       }
     }]
   }
-}
+},
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
@@ -59,4 +59,3 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
-}
