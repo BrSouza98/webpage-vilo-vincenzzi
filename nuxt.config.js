@@ -31,11 +31,27 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // Simple usage
-    '@nuxtjs/google-gtag',
-
-    // With options
-    ['@nuxtjs/google-gtag', { /* module options */ }]
+    '@nuxtjs/google-gtag'
   ],
+  'google-gtag': {
+    id: 'G-8XTG1Z01E8',
+    config: {
+      anonymize_ip: true, // anonymize IP 
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker: {
+        domains: ['domain.com','domain.org']
+      }
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    additionalAccounts: [{
+      id: 'AW-XXXX-XX', // required if you are adding additional accounts
+      config: {
+        send_page_view: false // optional configurations
+      }
+    }]
+  }
+}
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
