@@ -50,8 +50,8 @@ export default {
         send_page_view: false // optional configurations
       }
     }]
-  }
-}
+  },
+
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
