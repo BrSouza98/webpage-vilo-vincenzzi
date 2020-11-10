@@ -23,9 +23,9 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@nuxtjs/google-analytics', {
+    ['@nuxtjs/google-analytics', {
       id: 'UA-181924478-1'
-    }
+    }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
