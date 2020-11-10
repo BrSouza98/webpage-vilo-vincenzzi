@@ -16,17 +16,21 @@ export default {
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
+<<<<<<< HEAD
   buildModules: [
     ['@nuxtjs/google-analytics', {
       id: 'UA-181924478-1'
     }]
   ],
+=======
+  buildModules: [],
+>>>>>>> e3a41ff01f0288d6e9492dab48a697720abdd838
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -34,7 +38,28 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // Simple usage
+    '@nuxtjs/google-gtag'
   ],
+  'google-gtag': {
+    id: 'G-8XTG1Z01E8',
+    config: {
+      anonymize_ip: true, // anonymize IP 
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker: {
+        domains: ['domain.com','domain.org']
+      }
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    additionalAccounts: [{
+      id: 'AW-XXXX-XX', // required if you are adding additional accounts
+      config: {
+        send_page_view: false // optional configurations
+      }
+    }]
+  },
+
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
