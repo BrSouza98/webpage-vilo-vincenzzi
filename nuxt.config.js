@@ -30,7 +30,28 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // Simple usage
+    '@nuxtjs/google-gtag'
   ],
+  'google-gtag': {
+    id: 'UA-181924478-1',
+    config: {
+      anonymize_ip: true, // anonymize IP 
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker: {
+        domains: ['domain.com','domain.org']
+      }
+    },
+    debug: true, // enable to track in dev mode
+    disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    additionalAccounts: [{
+      id: 'AW-XXXX-XX', // required if you are adding additional accounts
+      config: {
+        send_page_view: false // optional configurations
+      }
+    }]
+  }
+},
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
@@ -38,4 +59,3 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
-}
