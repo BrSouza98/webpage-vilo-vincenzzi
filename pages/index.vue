@@ -34,6 +34,124 @@
         </b-col>
       </b-row>
     </b-container>
+    <div>
+            <b-carousel
+        id="carousel-no-animation"
+        style="text-shadow: 0px 0px 2px #000"
+        no-animation
+        indicators
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide
+          caption=""
+          img-src="~/assets/emeb2.png"
+        ></b-carousel-slide>
+      </b-carousel>
+    </div>
+        <b-container fluid>
+      <b-row cols="3">
+        <b-col>
+          <card
+            titulo="Berçario"
+            alt="card de apresentacao"
+            texto="Berçario é até que idade? O berçario da escola Vilo Vicenzzi atende crianças dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento
+            e cuidado das crianças. Com profisisonais especializados para cuidar dos nossos alunos com maior amor e carinho, na ausência momentânea de seus pais."
+          ></card>
+        </b-col>
+
+        <b-col>
+          <card
+            titulo="Maternal"
+            alt="card de apresentacao"
+            texto="Maternal é até que idade? O maternal da escola Vilo Vicenzzi atende crianças de 1 a 3 anos de idade. Contaamos com 3 maternais um para cada ano de vida da criança,
+            que são dividos por períodos conforme a idade. Trabalhamos com músicas gestuais, cantigas de roda e dança para estimular partes do corpo. Contamos histórias infantis, trabalhamos
+            com o corpo através de estimulos, de forma que estimule a criança a identificar e nomear as partes do corpo."
+          ></card>
+        </b-col>
+
+        <b-col>
+          <card
+            titulo="Jardim de infância"
+            alt="card de apresentacao"
+            texto="Jardim de infância é até que idade? O jardim de infânciaa da escola Vilo Vicenzzi atende crianças apartir dos 5 anos de idade. Contribuimos para o desenvolvimento da linguagem e do vocabulário
+             dos nossos alunos, pois é importante na aprendizagem da leitura e da escrita e na aquisição de muitos outros conhecimentos. Jogos e brincadeiras, livres ou orientadas, poderão 
+             promover o desenvolvimento da criatividiade."
+          ></card>
+        </b-col>
+      </b-row>
+    </b-container>
+        <div>
+            <b-carousel
+        id="carousel-no-animation"
+        style="text-shadow: 0px 0px 2px #000"
+        no-animation
+        indicators
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide
+          caption=""
+          img-src="~/assets/blog1.png"
+        ></b-carousel-slide>
+      </b-carousel>
+    </div>
+
+
+
+
+
+    <div class="card-header">
+      
+  <b-card
+    title=""
+    img-src="~/assets/pandemia.png"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/pandemia.png"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/pandemia.png"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+    </b-card-text>
+  </b-card>
+  </div>
+
+
+
+
+
+
+
   </div>
 </template>
 
@@ -47,4 +165,14 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  
+}
+</style>>
+
