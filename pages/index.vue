@@ -45,7 +45,7 @@
       >
         <b-carousel-slide
           caption=""
-          img-src="~/assets/emeb2.png"
+          img-src="~/assets/banner.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -92,7 +92,7 @@
       >
         <b-carousel-slide
           caption=""
-          img-src="~/assets/blog1.png"
+          img-src="~/assets/banner.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -113,7 +113,7 @@
     class="mb-2 align"
   >
     <b-card-text>
-      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+      <a  class="corpreta"  href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
     </b-card-text>
   </b-card>
 
@@ -127,7 +127,7 @@
     class="mb-2 align"
   >
     <b-card-text>
-      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+      <a  class="corpreta"  href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
     </b-card-text>
   </b-card>
 
@@ -141,8 +141,283 @@
     class="mb-2 align"
   >
     <b-card-text>
-      <a href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
+      <a  class="corpreta"  href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Nosso trabalho em plena pandemia.</a>
     </b-card-text>
+  </b-card>
+  </div>
+
+
+
+
+
+    <div>
+            <b-carousel
+        id="carousel-no-animation"
+        style="text-shadow: 0px 0px 2px #000"
+        no-animation
+        indicators
+        img-width="1024"
+        img-height="480"
+      >
+        <b-carousel-slide
+          caption=""
+          img-src="~/assets/banner.png"
+        ></b-carousel-slide>
+      </b-carousel>
+    </div>
+
+
+
+
+
+ <div class="card-header1">
+      
+  <b-card
+    title=""
+    img-src="~/assets/foto1.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto1.jpg" target="_blank">Refeitório.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto2.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto2.jpg" target="_blank">Refeitório.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto3.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto3.jpg" target="_blank">Jardim de infância 1.</a>
+    </b-card-text>
+
+    
+  </b-card>
+
+      <b-card
+    title=""
+    img-src="~/assets/foto4.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+            <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto4.jpg" target="_blank">Brinquedoteca.</a>
+
+    </b-card-text>
+
+    
+  </b-card>
+  </div>
+
+ <div class="card-header1">
+      
+  <b-card
+    title=""
+    img-src="~/assets/foto5.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+            <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto5.jpg" target="_blank">Brinquedoteca.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto6.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+            <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto6.jpg" target="_blank">Brinquedoteca.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto7.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto7.jpg" target="_blank">Sala do berçario.</a>
+
+    </b-card-text>
+
+    
+  </b-card>
+
+      <b-card
+    title=""
+    img-src="~/assets/foto8.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto8.jpg" target="_blank">Sala do berçario.</a>
+    </b-card-text>
+
+    
+  </b-card>
+  </div>
+   <div class="card-header1">
+      
+  <b-card
+    title=""
+    img-src="~/assets/foto9.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto9.jpg" target="_blank">Banheiro do berçario.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto10.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto10.jpg" target="_blank">Banheiro do berçario.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto11.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto11.jpg" target="_blank">Banheiro do berçario.</a>
+    </b-card-text>
+
+    
+  </b-card>
+
+      <b-card
+    title=""
+    img-src="~/assets/foto12.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto12.jpg" target="_blank">Playground.</a>
+    </b-card-text>
+
+    
+  </b-card>
+  </div>
+   <div class="card-header1">
+      
+  <b-card
+    title=""
+    img-src="~/assets/foto13.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto13.jpg" target="_blank">Playground.</a>
+    </b-card-text>
+  </b-card>
+
+    <b-card
+    title=""
+    img-src="~/assets/foto14.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto14.jpg" target="_blank">Playground.</a>
+    </b-card-text>
+  </b-card>
+    <b-card
+    title=""
+    img-src="~/assets/foto17.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto17.jpg" target="_blank">Playground.</a>
+    </b-card-text>
+
+    
+  </b-card>
+
+      <b-card
+    title=""
+    img-src="~/assets/foto16.jpg"
+    img-alt="Image"
+    img-top
+    tag="article"
+    style="max-width: 20rem;"
+    class="mb-2 align"
+  >
+    <b-card-text>
+                  <a class="corpreta" href="http://localhost:3000/_nuxt/assets/foto16.jpg" target="_blank">Playground.</a>
+    </b-card-text>
+
+    
   </b-card>
   </div>
 
@@ -173,6 +448,29 @@ export default {
   display: flex;
   justify-content: space-around;
   
+}
+
+.card-header1 {
+  padding: 1.75rem 1.25rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  
+}
+.imgtamanho{
+  height: 300px;
+}
+.imgteste{
+      padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  font-weight: bold;
+display: flex;
+  justify-content: space-around;
+}
+.corpreta{
+  color: black;
 }
 </style>>
 
