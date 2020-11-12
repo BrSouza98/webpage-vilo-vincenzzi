@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="corpadrao1">
     <carrosel></carrosel>
     <b-container fluid>
       <b-row class="d-flex justify-content-center">
@@ -159,7 +159,7 @@
 
 
 
-    <div>
+    <div class="corpadrao1">
             <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
@@ -179,7 +179,7 @@
 
 
 
- <div class="card-header1">
+ <div class="card-header1 corpadrao1">
       
   <b-card
     title=""
@@ -243,7 +243,7 @@
   </b-card>
   </div>
 
- <div class="card-header1">
+ <div class="card-header1 corpadrao1">
       
   <b-card
     title=""
@@ -306,7 +306,7 @@
     
   </b-card>
   </div>
-   <div class="card-header1">
+   <div class="card-header1 corpadrao1">
       
   <b-card
     title=""
@@ -368,7 +368,7 @@
     
   </b-card>
   </div>
-   <div class="card-header1">
+   <div class="card-header1 corpadrao1">
       
   <b-card
     title=""
@@ -480,6 +480,9 @@ display: flex;
 }
 .corpreta{
   color: black;
+}
+.corpadrao1{
+  background-color: #f0f0f0;
 }
 </style>>
 
