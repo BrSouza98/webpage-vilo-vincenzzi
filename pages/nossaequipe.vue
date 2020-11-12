@@ -54,6 +54,13 @@
           <b-col class="fundoVerde col-7">
             <h3>"Feliz aquele que transfere o que sabe e aprende o que ensina." Cora Coralina.</h3>
             <p>
+              Daniela Mara Henriques é coordenadora pedagógica da EMEB Engenheiro Vilo Vincenzzi. 
+              <br>
+              Atualmente também exerce a função temporária de diretora de nossa escola.
+              <br>
+              Iniciou sua trajetória concluindo o 2°grau com habilitação para o Magistério. 
+              <br>
+              É licenciada em Ciências Biológicas e Pedagogia com especialização em Psicopedagogia.
             </p>
           </b-col>
 
@@ -162,10 +169,13 @@
           <b-col class="fundoAmarelo col-7">
             <h3>"Educação não é preparação para a vida, é a própria vida."John Dewey.</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-              natus debitis magni ullam ad hic enim a id deserunt facilis
-              officiis qui vitae dolor, veniam voluptates ipsum quis molestias
-              in?
+              Rosemeire Aparecida Colla é formada pela Faculdade ITES em Pedagogia. 
+              <br>
+              Possui pós-graduação em Educação e Sociedade pela Faculdade São Luís.
+              <br>
+              Atualmente está cursando pós-graduação em Educação e Meio Ambiente também pela Faculdade São Luís.
+              <br>
+              É professora do Maternal II.
             </p>
           </b-col>
         </b-row>
