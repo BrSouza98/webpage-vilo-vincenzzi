@@ -52,19 +52,8 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
           <b-col class="fundoVerde col-7">
-            <h3>"A educação exige os maiores cuidados, porque influi sobre toda a vida." Sêneca.</h3>
+            <h3>"Feliz aquele que transfere o que sabe e aprende o que ensina." Cora Coralina.</h3>
             <p>
-             A Coordenação pedagógica é um cargo da área da educação que tem como objetivo melhorar as práticas dos professores na formação continuada da escola.
-             Tal função surgiu com a proposta de equilibrar, hierarquizar propostas e competências pedagógicas.
-             <br>
-             Um coordenador pedagógico precisa saber das necessidades de sua equipe de trabalho, 
-             analisando o planejamento das atividades, as produções dos alunos a partir das aulas dadas pela sua equipe de professores e os resultados das turmas. 
-             Para isso o coordenador pedagógico pode observar as aulas acontecendo em salas ou as ações dos professores (dentro e fora da sala de aula).
-             <br>
-             Dentro da comunidade escolar, o coordenador pedagógico possui uma função articuladora, 
-             transformadora, ou seja, age como um elemento mediador entre o currículo e os professores, 
-             e os outros atores da educação. O coordenador pedagógico deve ter pleno conhecimento dos professores e alunos com quem trabalha, 
-             da realidade sociocultural em que a escola se encontra e os demais aspectos das relações pedagógicas e interpessoais que se desenvolvem na sala de aula e na escola.
             </p>
           </b-col>
 
@@ -103,7 +92,7 @@
           </b-col>
 
           <b-col class="fundoVermelho col-7">
-            <h3>"Feliz aquele que transfere o que sabe e aprende o que ensina." Cora Corolina.</h3>
+            <h3>"Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensina." Esopo.</h3>
             <p>
               O berçarista deve cuidar da higiene, banhos e alimentação das crianças recém-nascidas.
               <br>
@@ -122,7 +111,7 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
           <b-col class="fundoAzul col-7">
-            <h3>"Eduquem as crianças, para que não seja necessário punir os adultos." Pitágoras.</h3>
+            <h3>"Educação é aquilo que fica depois que você esquece o que a escola ensinou." Albert Einstein.</h3>
             <p>
               Prepara e organiza os materiais e recursos escolares necessários para o professor desenvolver suas aulas e atividades pedagógicas. 
               Auxilia com a organização e manutenção do ambiente de sala de aula. 
@@ -171,7 +160,7 @@
           </b-col>
 
           <b-col class="fundoAmarelo col-7">
-            <h3>"A educação é a arma mais poderosa que você pode usar para mudar o mundo." Nelson Mandela.</h3>
+            <h3>"Educação não é preparação para a vida, é a própria vida."John Dewey.</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
               natus debitis magni ullam ad hic enim a id deserunt facilis
@@ -185,12 +174,17 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
           <b-col class="fundoRosa col-7">
-            <h3>"É preciso que a leitura seja um ato de amor." Paulo Freire.</h3>
+            <h3>"Não se pode falar de educação sem amor." Paulo Freire.</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-              natus debitis magni ullam ad hic enim a id deserunt facilis
-              officiis qui vitae dolor, veniam voluptates ipsum quis molestias
-              in?
+              Ludmila Carvalho Gambogi é professora do Jardim I - 1° Etapa. 
+              <br>
+              Concluiu graduações nas áreas de Estética e Cosmética (áreas correlatas em Biologia) e Licenciatura em Pedagogia.
+              <br>
+              É graduanda em Letras (Português e Inglês).
+              <br>
+              Pós-graduada em Alfabetização e Letramento, Neuroaprendizagem e Psicopedagogia Clínica, Institucional e Educação Especial.
+              <br>
+              Possui também formação em nível Master Business Administration em Gestão Escolar pela USP/ESALQ.
             </p>
           </b-col>
 
@@ -229,12 +223,15 @@
           </b-col>
 
           <b-col class="fundoMarrom col-7">
-            <h3>"Se você acha que educação é cara, experimente a ignorância." Derek Bok.</h3>
+            <h3>"A função da educação é ensinar a pensar criticamente e intensamento." Martin Luther King.</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-              natus debitis magni ullam ad hic enim a id deserunt facilis
-              officiis qui vitae dolor, veniam voluptates ipsum quis molestias
-              in?
+              Danilo Augusto Reinol é professor do Jardim II - 2° Etapa.
+              <br>
+              Possui graduações nas áres de Sistemas de Informação, Pedagogia e Letras (Português e Inglês).
+              É pós-graduado em nível lato sensu em Educação Especial e Inclusiva, 
+              <br>
+              Psicopedagogia Institucional e atualmente cursa Compreensão de textos e tradução da Língua Espanhola. 
+              É também mestrando em Educação pela Ufscar.
             </p>
           </b-col>
         </b-row>
