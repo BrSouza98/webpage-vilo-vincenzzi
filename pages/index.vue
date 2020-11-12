@@ -55,8 +55,10 @@
           <card
             titulo="Berçario"
             alt="card de apresentacao"
-            texto="Berçario é até que idade? O berçario da escola Vilo Vicenzzi atende crianças dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento
-            e cuidado das crianças. Com profisisonais especializados para cuidar dos nossos alunos com maior amor e carinho, na ausência momentânea de seus pais."
+            texto="Berçário é até qual idade? O berçário da escola Vilo Vicenzzi atende crianças 
+            dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento e cuidados das crianças. 
+            Com profissionais especializados para cuidar dos nossos alunos com muito amor e carinho, 
+            na ausência momentânea de seus pais."
           ></card>
         </b-col>
 
@@ -64,9 +66,12 @@
           <card
             titulo="Maternal"
             alt="card de apresentacao"
-            texto="Maternal é até que idade? O maternal da escola Vilo Vicenzzi atende crianças de 1 a 3 anos de idade. Contaamos com 3 maternais um para cada ano de vida da criança,
-            que são dividos por períodos conforme a idade. Trabalhamos com músicas gestuais, cantigas de roda e dança para estimular partes do corpo. Contamos histórias infantis, trabalhamos
-            com o corpo através de estimulos, de forma que estimule a criança a identificar e nomear as partes do corpo."
+            texto="Nosso maternal atende crianças de 2 a 3 anos de idade. 
+            Contamos com 2 maternais um para cada ano de vida da criança, que são divididos por períodos 
+            conforme a idade. Trabalhamos com músicas, cantigas de roda e dança para estimular o 
+            desenvolvimento integral dos alunos. Contamos histórias infantis, 
+            desenvolvemos atividades lúdicas e trabalhamos com o corpo através de estímulos constantes.
+            Nossas propostas estão todas de acordo com a nova Base Nacional Comum Curricular."
           ></card>
         </b-col>
 
@@ -74,9 +79,13 @@
           <card
             titulo="Jardim de infância"
             alt="card de apresentacao"
-            texto="Jardim de infância é até que idade? O jardim de infânciaa da escola Vilo Vicenzzi atende crianças apartir dos 5 anos de idade. Contribuimos para o desenvolvimento da linguagem e do vocabulário
-             dos nossos alunos, pois é importante na aprendizagem da leitura e da escrita e na aquisição de muitos outros conhecimentos. Jogos e brincadeiras, livres ou orientadas, poderão 
-             promover o desenvolvimento da criatividiade."
+            texto="O jardim de infância de nossa escola atende crianças a partir dos 4 anos de idade
+            e está dividido em 1ª e 2ª Etapas. Contribuímos para o desenvolvimento da linguagem e do 
+            vocabulário dos nossos alunos, pois é importante na aprendizagem da leitura e da escrita e
+            na aquisição de muitos outros conhecimentos. Também trabalhamos com jogos e brincadeiras, 
+            livres ou orientadas, de modo a promover o desenvolvimento integral das crianças. 
+            Os objetivos para essa fase são baseados nos campos de experiência e direitos de 
+            aprendizagem descritos na Base Nacional Comum Curricular."
           ></card>
         </b-col>
       </b-row>
