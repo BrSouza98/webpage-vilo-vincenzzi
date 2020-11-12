@@ -15,9 +15,10 @@
         ></b-carousel-slide>
       </b-carousel>
     </div>
-    <h2 class="espaco textocentro"><b>Somos uma escola de Educação Infantil da rede municipal de Taquaritinga.</b></h2>
+    <div class="cor">
+    <h2 class="textocentro"><b>Somos uma escola de Educação Infantil da rede municipal de Taquaritinga.</b></h2>
 <b-container fluid class="bv-example-row">
-  <b-row class="espaco">
+  <b-row>
     <b-col><h2>Nossa escola</h2>
     <p>A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi criada em 20 de março de 2015.</p>
     <p>Contamos com uma equipe que ama o que faz, fazendo tudo com muito amor e carinho por nossos alunos..</p>
@@ -54,6 +55,7 @@
   </b-row>
 </b-container>
   </div>
+  </div>
 </template>
 
 <script>
@@ -86,12 +88,13 @@ export default {};
   color: red;
 }
 
-.espaco{
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
+
 
 .textocentro{
   text-align: center;
+}
+
+.cor{
+  background-color: #f0f0f0;
 }
 </style>

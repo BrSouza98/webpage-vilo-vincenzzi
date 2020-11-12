@@ -15,7 +15,7 @@
         ></b-carousel-slide>
       </b-carousel>
 
-      <b-container class="Apresentacao">
+      <b-container fluid class="Apresentacao fundopadrao">
         <b-row>
           <b-col>
             <h1>
@@ -326,6 +326,10 @@ b-container {
 .fundoMarrom {
   background-color: #612c1f;
   border-bottom: $borda;
+}
+
+.fundopadrao{
+  background-color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
