@@ -15,7 +15,7 @@
         ></b-carousel-slide>
       </b-carousel>
     </div>
-    <h2 class="espaco textocentro"><b>Somos uma escola de educação infantil da prefeitura de Taquaritinga.</b></h2>
+    <h2 class="espaco textocentro"><b>Somos uma escola de Educação Infantil da rede municipal de Taquaritinga.</b></h2>
 <b-container fluid class="bv-example-row">
   <b-row class="espaco">
     <b-col><h2>Nossa escola</h2>
