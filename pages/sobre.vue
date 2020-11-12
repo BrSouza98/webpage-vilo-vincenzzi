@@ -26,8 +26,8 @@
     <p>Aulas no período da <b>Manhã</b></p>
     <p>Números de turmas 3 / Média de alunos por turma: 15</p>
     <p><b>Educação infantil - Pré-escola</b></p>
-    <p>Auals no período da <b>Manhã</b></p>
-    <p>Numero de turmas 2 / Média de alunos por turma: 25</p>
+    <p>Aulas no período da <b>Manhã</b></p>
+    <p>Número de turmas 2 / Média de alunos por turma: 25</p>
     </b-col>
     <b-col><h2>Infraestrutura</h2>
     <p>• Alimentação escolar para os alunos.</p>
