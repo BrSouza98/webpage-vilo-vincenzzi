@@ -19,8 +19,8 @@
 <b-container fluid class="bv-example-row">
   <b-row class="espaco">
     <b-col><h2>Nossa escola</h2>
-    <p>A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi criada em 20/03/2015.</p>
-    <p>Contamos com uma equipe que ama o que faz, fazendo tudo com muito amor e carinho assim tomo todas criança merece em sua vida.</p>
+    <p>A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi criada em 20 de março de 2015.</p>
+    <p>Contamos com uma equipe que ama o que faz, fazendo tudo com muito amor e carinho por nossos alunos..</p>
     <h2>Turmas</h2>
     <p><b>Educação infantil - Creche</b></p>
     <p>Aulas no período da <b>Manhã</b></p>
