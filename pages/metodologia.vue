@@ -70,15 +70,14 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
           <b-col class="cor">
-            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+            <h2>Grupo 2 - Maternal I e Grupo 3 - Maternal II</h2>
             <p>
-              A prática do Vilo Vicenzzi com os pequenos é de respeito à
-              infância e ao cuidado físico, emocional e cognitivo. Eles são
-              incentivados, diariamente, a participar de desafios e descobertas
-              e a conhecer a si mesmos, o outro e o mundo. Para promover o
-              desenvolvimento e a aprendizagem da criança, o trabalho da
-              apostila Positivo tem quatro eixos permeados pela afetividade e
-              brincadeira:
+              A prática da escola Vilo Vincenzzi com os pequenos é de respeito à infância e ao cuidado físico, 
+              emocional e cognitivo. Eles são incentivados, diariamente, 
+              a participar de desafios e descobertas e a conhecer a si mesmos, ao outro e ao mundo. 
+              Para promover o desenvolvimento e a aprendizagem da criança, 
+              o trabalho da apostila Aprende Brasil da Editora Positivo tem quatro eixos permeados 
+              pela afetividade e brincadeiras:
             </p>
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
