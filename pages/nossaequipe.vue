@@ -101,15 +101,9 @@
           <b-col class="fundoVermelho col-7">
             <h3>"Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensina." Esopo.</h3>
             <p>
-              O berçarista deve cuidar da higiene, banhos e alimentação das crianças recém-nascidas.
+              Cleonice Rezende da Silva é berçarista responsável pelos berçários I e II.
               <br>
-              Além disso, deve monitorar as crianças, acompanhar todas as atividades, auxiliar na seleção e preparação das refeições para as crianças, 
-              organizar o ambiente e os materiais, trocar fraldas e vestir as crianças, e regular os períodos de descanso.
-              <br>
-              Este profissional também deve ensinar para as crianças, dependendo da idade, noções de desenho, 
-              pintura e outras atividades interessantes para seu desenvolvimento.
-              <br>
-              Identificar sinais de problemas emocionais ou de desenvolvimento em crianças e informar aos pais ou tutores também é fundamental.
+              Tem formação tecnológica em Marketing, é graduada em Pedagogia e possui especialização em Educação Especial.
             </p>
           </b-col>
         </b-row>
