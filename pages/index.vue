@@ -8,7 +8,7 @@
     </b-container>
 
     <b-container fluid>
-      <b-row cols="3">
+      <b-row  col sm="12" md="4" sg="4">
         <b-col>
           <card
             titulo="Titulo ok"
@@ -50,7 +50,7 @@
       </b-carousel>
     </div>
         <b-container fluid>
-      <b-row cols="3">
+      <b-row   <b-row  col sm="12" md="4" sg="4">>
         <b-col>
           <card
             titulo="Berçário"
