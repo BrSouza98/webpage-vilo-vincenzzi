@@ -20,7 +20,7 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
           <b-col class="cor">
-            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+            <h2>Educação Infantil Grupo 2 (2 anos) e Grupo 3 (3 anos)</h2>
             <ul>
               <li>
                 Apostilas de tamanho e formato generosos (A3), com uma atividade
@@ -40,7 +40,7 @@
               geométricas e percepção visual de cores.
             </p>
             <p>
-              <b>Leitura e Letramento::</b> estimula a aprendizagem e o gosto
+              <b>Leitura e Letramento:</b> estimula a aprendizagem e o gosto
               pela leitura.
             </p>
             <p><b>Descobertas:</b> compreensão do mundo em que vive.</p>

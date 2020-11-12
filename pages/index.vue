@@ -3,7 +3,7 @@
     <carrosel></carrosel>
     <b-container fluid>
       <b-row class="d-flex justify-content-center">
-        <h1>Bem-vindo a Vilo Vincenzzi!</h1>
+        <h1>Bem-vindo à Vilo Vincenzzi!</h1>
       </b-row>
     </b-container>
 
@@ -53,7 +53,7 @@
       <b-row cols="3">
         <b-col>
           <card
-            titulo="Berçario"
+            titulo="Berçário"
             alt="card de apresentacao"
             texto="Berçário é até qual idade? O berçário da escola Vilo Vicenzzi atende crianças 
             dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento e cuidados das crianças. 
