@@ -87,6 +87,32 @@
                 src="~/assets/positivo2.jpg"
                 alt=""
               />
+
+             
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+
+    <div>
+      <b-container fluid class="configuraçãoPadrao">
+        <b-row>
+          <b-col class="cor">
+            <h2>Educação Infantil Grupo 4 (4 anos) e Grupo 5 (5 anos)</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse libero, dolore provident odio non ut in perferendis temporibus, quidem excepturi ducimus placeat quibusdam! Eaque nisi rem autem reiciendis facere tempore nihil, dolores at fugit perspiciatis minima? Tempore cumque porro perferendis dignissimos sed rerum, maiores ex aut corrupti dolorem fuga dolores, nam consectetur magnam iure mollitia eaque similique eius laudantium. Eius eligendi quidem repellendus fugiat nostrum itaque. Unde accusamus, consequatur nulla necessitatibus corporis quia quibusdam error, et deleniti quam sed, veniam ullam debitis qui! Dolorum harum ipsa a atque esse minus sequi placeat tempora cum rem illum expedita qui nobis quia, tenetur dolores fugiat aut eum doloremque quibusdam tempore assumenda! Magnam doloremque officiis a. Soluta distinctio, fuga cum unde dolores totam quibusdam incidunt odit et sit architecto ullam aperiam error esse? Doloribus quidem provident vitae inventore aperiam, numquam distinctio blanditiis non tempore ab laborum at optio possimus fuga illo, et molestiae. Numquam, recusandae expedita libero quas vero ipsum ad tenetur quam autem, ut debitis maiores accusantium. Officiis eveniet itaque nostrum. A, distinctio et laborum dicta, voluptate natus fugit cupiditate voluptas doloremque commodi ea ratione voluptatum nam numquam nihil harum delectus. Quis nemo ipsum numquam a expedita sequi quae eius autem!
+            </p>
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center"
+            >
+              <img
+                class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
+                src="~/assets/positivo4.jpeg"
+                alt=""
+              />
+
+             
             </div>
           </b-col>
         </b-row>
