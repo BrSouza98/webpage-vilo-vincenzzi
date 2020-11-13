@@ -16,7 +16,7 @@
       </b-carousel>
     </div>
 
-    <div class="margemupdown1">
+    <div class="">
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
           <b-col class="cor">

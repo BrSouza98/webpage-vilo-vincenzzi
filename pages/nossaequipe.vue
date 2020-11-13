@@ -10,18 +10,18 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="Nossa Equipe"
-          img-src="~/assets/losa.jpg"
+          caption=""
+          img-src="~/assets/nossaequipe.png"
         ></b-carousel-slide>
       </b-carousel>
 
       <b-container fluid class="Apresentacao fundopadrao">
         <b-row>
           <b-col>
-            <h1>
+            <h1 class="margemupdown1">
               APRESENTAÇÃO
             </h1>
-            <p>
+            <p class="margemupdown1">
               Nos primeiros passos, nas descobertas... A gente aprova seus
               sonhos. A Educação Infantil do Colégio Vilo Vincenzzi Taquaritinga
               foi inaugurada em 2005 após um intenso planejamento entre a
@@ -39,7 +39,7 @@
               Colégio Vilo Vincenzzi Taquaritinga oferece as seguintes turmas:
             </p>
 
-            <ul>
+            <ul class="margemupdown1">
               <li>Berçario</li>
               <li>Fundamental I</li>
               <li>Fundamental II</li>
@@ -350,5 +350,10 @@ b-container {
       }
     }
   }
+}
+
+.margemupdown1{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 </style>
