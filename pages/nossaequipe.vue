@@ -138,6 +138,10 @@
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Sandra - Aux. Infantil
               </h3>
+              <p>
+                Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil responsável pelo Maternal I.
+Possui formação tecnológica em Produção Industrial pela FATEC e licenciatura plena em Pedagogia.
+              </p>
             </div>
           </b-col>
         </b-row>

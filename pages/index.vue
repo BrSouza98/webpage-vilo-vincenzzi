@@ -45,7 +45,7 @@
       >
         <b-carousel-slide
           caption=""
-          img-src="~/assets/banner.png"
+          img-src="~/assets/png1.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -101,7 +101,7 @@
       >
         <b-carousel-slide
           caption=""
-          img-src="~/assets/banner.png"
+          img-src="~/assets/png2.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -170,7 +170,7 @@
       >
         <b-carousel-slide
           caption=""
-          img-src="~/assets/banner.png"
+          img-src="~/assets/png3.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
