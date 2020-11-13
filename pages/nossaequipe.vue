@@ -113,17 +113,8 @@
         <b-row cols="2">
           <b-col class="fundoAzul col-7">
             <h3>"Educação é aquilo que fica depois que você esquece o que a escola ensinou." Albert Einstein.</h3>
-            <p>
-              Prepara e organiza os materiais e recursos escolares necessários para o professor desenvolver suas aulas e atividades pedagógicas. 
-              Auxilia com a organização e manutenção do ambiente de sala de aula. 
-              Dá suporte para demais solicitações vindas dos professores e educadores, como por exemplo, ajuda com correções de atividades e provas.
-              <br>
-              Acompanha os alunos até o banheiro, refeições e demais locais da instituição. 
-              É responsável por atuar mediando conflitos entre as crianças e estar atento na turma para prevenir acidentes infantis.
-              <br>
-              No caso da educação infantil, um auxiliar de classe infantil será responsável por auxiliar as crianças a desenvolverem autonomia. 
-              Ajudando-os com tarefas como: higiene básica, dar refeições e aplicar atividades estimulantes.
-            </p>
+                            Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil responsável pelo Maternal I.
+                            <p>Possui formação tecnológica em Produção Industrial pela FATEC e licenciatura plena em Pedagogia.</p>
           </b-col>
 
           <b-col class="fundoBranco col-5">
@@ -138,10 +129,7 @@
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Sandra - Aux. Infantil
               </h3>
-              <p>
-                Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil responsável pelo Maternal I.
-Possui formação tecnológica em Produção Industrial pela FATEC e licenciatura plena em Pedagogia.
-              </p>
+
             </div>
           </b-col>
         </b-row>
