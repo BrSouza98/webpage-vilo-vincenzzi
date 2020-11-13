@@ -2,12 +2,12 @@
   <div class="corpadrao1">
     <carrosel></carrosel>
     <b-container fluid>
-      <b-row class="d-flex justify-content-center">
+      <b-row class="d-flex justify-content-center updown">
         <h1>Bem-vindo à Vilo Vincenzzi!</h1>
       </b-row>
     </b-container>
 
-    <b-container fluid>
+    <b-container fluid class="updown"> 
       <b-row  col sm="12" md="4" sg="4">
         <b-col>
           <card
@@ -34,7 +34,7 @@
         </b-col>
       </b-row>
     </b-container>
-    <div>
+    <div class="updown">
             <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
@@ -49,7 +49,7 @@
         ></b-carousel-slide>
       </b-carousel>
     </div>
-        <b-container fluid>
+        <b-container fluid class="updown">
       <b-row   <b-row  col sm="12" md="4" sg="4">>
         <b-col>
           <card
@@ -90,7 +90,7 @@
         </b-col>
       </b-row>
     </b-container>
-        <div>
+        <div class="updown">
             <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
@@ -110,7 +110,7 @@
 
 
 
-    <div class="card-header">
+    <div class="card-header branco ">
       
   <b-card
     title=""
@@ -159,7 +159,7 @@
 
 
 
-    <div class="corpadrao1">
+    <div class="corpadrao1 updown">
             <b-carousel
         id="carousel-no-animation"
         style="text-shadow: 0px 0px 2px #000"
@@ -191,7 +191,7 @@
     class="mb-2 align"
   >
     <b-card-text>
-      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto1.jpg" target="_blank">Refeitório.</a>
+      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto1.jpg" target="_blank">Refeitorio.</a>
     </b-card-text>
   </b-card>
 
@@ -205,7 +205,7 @@
     class="mb-2 align"
   >
     <b-card-text>
-      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto2.jpg" target="_blank">Refeitório.</a>
+      <a  class="corpreta"  href="http://localhost:3000/_nuxt/assets/foto2.jpg" target="_blank">Refeitorio.</a>
     </b-card-text>
   </b-card>
 
@@ -465,8 +465,12 @@ export default {
   font-weight: bold;
   display: flex;
   justify-content: space-evenly;
-  background-color: #ffffff;
+
   
+}
+
+.branco{
+  background-color: white;
 }
 .imgtamanho{
   height: 300px;
@@ -481,6 +485,9 @@ display: flex;
 .corpreta{
   color: black;
 }
-
+.updown{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 </style>>
 
