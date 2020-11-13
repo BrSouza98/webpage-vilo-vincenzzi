@@ -124,7 +124,7 @@
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
-                src="~/assets/positivo4.jpeg"
+                src="~/assets/positivo12.png"
                 alt=""
               />
             </div>

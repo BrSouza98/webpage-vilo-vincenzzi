@@ -7,33 +7,7 @@
       </b-row>
     </b-container>
 
-    <b-container fluid class="updown"> 
-      <b-row  col sm="12" md="4" sg="4">
-        <b-col>
-          <card
-            titulo="Titulo ok"
-            alt="card de apresentacao"
-            texto="texto padrão"
-          ></card>
-        </b-col>
 
-        <b-col>
-          <card
-            titulo="Titulo ok"
-            alt="card de apresentacao"
-            texto="texto padrão"
-          ></card>
-        </b-col>
-
-        <b-col>
-          <card
-            titulo="Titulo ok"
-            alt="card de apresentacao"
-            texto="texto padrão"
-          ></card>
-        </b-col>
-      </b-row>
-    </b-container>
     <div class="updown">
             <b-carousel
         id="carousel-no-animation"
@@ -50,7 +24,7 @@
       </b-carousel>
     </div>
         <b-container fluid class="updown">
-      <b-row   <b-row  col sm="12" md="4" sg="4">>
+      <b-row  col sm="12" md="4" sg="4">>
         <b-col>
           <card
             titulo="Berçário"
