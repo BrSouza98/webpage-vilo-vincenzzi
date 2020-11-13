@@ -10,19 +10,19 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="Metodologia"
-          img-src="~/assets/losa1.jpg"
+          caption=""
+          img-src="~/assets/imgnovo2.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
 
-    <div>
+    <div class="margemupdown1">
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
           <b-col class="cor">
             <h2>Educação Infantil Grupo 2 (2 anos) e Grupo 3 (3 anos)</h2>
             <ul>
-              <li>
+              <li class="margemupdown1">
                 Apostilas de tamanho e formato generosos (A3), com uma atividade
                 por página, imagens grandes e ilustrações de traçados grossos.
               </li>
@@ -53,7 +53,7 @@
               Brasil e no mundo.
             </p>
             <div
-              class="d-flex flex-wrap align-items-center justify-content-center"
+              class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
@@ -80,7 +80,7 @@
               pela afetividade e brincadeiras:
             </p>
             <div
-              class="d-flex flex-wrap align-items-center justify-content-center"
+              class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
@@ -120,7 +120,7 @@
               <b>Artes:</b> desenvolvimento da expressão, equilíbrio, autoestima, autoconhecimento e integração social.
             </p>
             <div
-              class="d-flex flex-wrap align-items-center justify-content-center"
+              class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
@@ -159,8 +159,8 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
           <b-col class="cor">
-            <h2>Educação Infantil I e II - 2 e 3 anos</h2>
-            <h2>Apostilas Positivo</h2>
+            <h2 class="margemupdown1">Educação Infantil I e II - 2 e 3 anos</h2>
+            <h2 class="margemupdown1">Apostilas Positivo</h2>
             <p>
               As apostilas para este segmento são entregues em 8 distribuições e
               possuem formato diferenciado, apropriado às fases iniciais da
@@ -173,7 +173,7 @@
               o aluno.
             </p>
             <div
-              class="d-flex flex-wrap align-items-center justify-content-center"
+              class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
@@ -204,6 +204,12 @@ h2{
 img{
   border-radius: 3px;
   
+}
+
+.margemupdown1
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 </style>
 

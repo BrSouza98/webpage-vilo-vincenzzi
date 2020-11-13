@@ -10,13 +10,13 @@
         img-height="480"
       >
         <b-carousel-slide
-          caption="Sobre nós"
-          img-src="https://i.imgur.com/RpegqeS.png"
+          caption=""
+          img-src="~/assets/novo1.png"
         ></b-carousel-slide>
       </b-carousel>
     </div>
-    <div class="cor">
-    <h2 class="textocentro"><b>Somos uma escola de Educação Infantil da rede municipal de Taquaritinga.</b></h2>
+    <div class="cor margemupdown">
+    <h2 class="textocentro margemupdown"><b>Somos uma escola de Educação Infantil da rede municipal de Taquaritinga.</b></h2>
 <b-container fluid class="bv-example-row">
   <b-row>
     <b-col><h2>Nossa escola</h2>
@@ -94,5 +94,10 @@ export default {};
   text-align: center;
 }
 
+.margemupdown
+{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 
 </style>
