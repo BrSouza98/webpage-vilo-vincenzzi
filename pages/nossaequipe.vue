@@ -332,9 +332,7 @@ b-container {
   border-bottom: $borda;
 }
 
-.fundopadrao{
-  background-color: #f0f0f0;
-}
+
 
 @media (max-width: 768px) {
   .configuracoes-globais {

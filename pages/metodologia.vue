@@ -199,9 +199,7 @@ h2{
   margin-bottom: 15px;
 }
 
-.cor{
-  background-color: #f0f0f0;
-}
+
 
 img{
   border-radius: 3px;

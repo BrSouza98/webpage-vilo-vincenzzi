@@ -101,6 +101,7 @@
   color: #fff;
   font-size: 18px;
   box-sizing: border-box;
+  margin-top: 50px;
 }
 </style>
 

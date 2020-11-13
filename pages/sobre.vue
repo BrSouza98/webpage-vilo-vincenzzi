@@ -94,7 +94,5 @@ export default {};
   text-align: center;
 }
 
-.cor{
-  background-color: #f0f0f0;
-}
+
 </style>
