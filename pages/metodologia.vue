@@ -12,6 +12,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/imgnovo2.png"
+          alt="5 alunos seguindo uma professora indo para esquerda"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -58,7 +59,7 @@
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo1.jpg"
-                alt=""
+                alt="Livros usados para a educação das crianças e a caixa onde eles se encontram em cima de uma mesa"
               />
             </div>
           </b-col>
@@ -85,7 +86,13 @@
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo2.jpg"
-                alt=""
+                alt="Circulo com 4 adendos
+                dentro do circulo esta escrito: Multiplas linguagens-Os professores trabalham as habilidades do aluno por meio de experiencias, para que a criança desenvolva múltiplas linguagens.
+                adendo Arte- Desenvolve a sensibilidade estetica, a imaginação e a criatividade.
+                adendo Pesquisa- Proporciona a descoberta do mundo, além de despertar a curiosidade, o levantamento de hipoteses e a superação de desafios, trazendo novos aprendizados
+                adendo Jogos- Promovem a comunicação e a socilização e desenvolvem a empatia, o compartilhar e o racicinio lógico. Além disso,contribuem para formação da inteligencia emocional e do senso de coletividade.
+                adendo Histórias- Estimulam a imaginação, o faz de conta, a oralidade e o contato com a literatura.
+                "
               />
             </div>
           </b-col>
@@ -125,7 +132,7 @@
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo12.png"
-                alt=""
+                alt="Os diversos livros usados na educação das crianças"
               />
             </div>
 
@@ -178,7 +185,16 @@
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
                 src="~/assets/positivo3.jpg"
-                alt=""
+                alt="Os eixos cognitvos
+                Arte, atitudes, cuidados pessoais, datas comemorativas, descobertas, independencia e autonomia, inglês, interação, jogos e desafios, leituras extraordinarias, linguagem e letramento, matemática, movimento, música, natureza e liberdade, oralidade, raciocinio lógico e socialização
+
+                Tambem apresenta os icones dos Campos de Experiencias da BNCC
+                Corpo, gestos e movimento.
+                O eu, o outro e o nós.
+                Espaços, tempos, quantidades, relações e transformações.
+                Traços, sons, cores e formas.
+                Escuta, fala, pensamento e imaginação.
+                "
               />
             </div>
           </b-col>

@@ -78,6 +78,7 @@
                 class="bi bi-house-fill"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                alt="Endereço"
               >
                 <path
                   fill-rule="evenodd"
@@ -99,6 +100,7 @@
                 class="bi bi-telephone-plus-fill"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                alt="Número de telefone"
               >
                 <path
                   fill-rule="evenodd"
@@ -115,6 +117,7 @@
                 class="bi bi-alarm-fill"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                alt="Horário de funcionamento"
               >
                 <path
                   fill-rule="evenodd"
@@ -131,6 +134,7 @@
                 class="bi bi-envelope-fill"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
+                tag="Email"
               >
                 <path
                   fill-rule="evenodd"

@@ -20,6 +20,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/png1.png"
+          img-alt="3 Crianças com as mãos pintadas de tinta e com manchas de de tinta pelo rosto"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -76,6 +77,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/png2.png"
+           img-alt="2 Crianças com as mãos pintadas de tinta e com manchas de de tinta pelo rosto"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -89,7 +91,7 @@
   <b-card
     title=""
     img-src="~/assets/pandemia.png"
-    img-alt="Image"
+    img-alt="4 professores conversando com mascara"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -103,7 +105,7 @@
     <b-card
     title=""
     img-src="~/assets/pandemia.png"
-    img-alt="Image"
+     img-alt="4 professores conversando com mascara"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -117,7 +119,7 @@
     <b-card
     title=""
     img-src="~/assets/pandemia.png"
-    img-alt="Image"
+      img-alt="4 professores conversando com mascara"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -145,6 +147,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/png3.png"
+           img-alt="3 Crianças com as mãos pintadas de tinta e com manchas de de tinta pelo rosto"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -158,7 +161,7 @@
   <b-card
     title=""
     img-src="~/assets/foto1.jpg"
-    img-alt="Image"
+    img-alt="Refeitorio com duas meses e uma cadeirinha"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -172,7 +175,7 @@
     <b-card
     title=""
     img-src="~/assets/foto2.jpg"
-    img-alt="Image"
+    img-alt="Refeitorio com 3 mesas "
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -186,7 +189,7 @@
     <b-card
     title=""
     img-src="~/assets/foto3.jpg"
-    img-alt="Image"
+    img-alt="Sala de aulas com diversa carteiras incluindo a do professor"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -202,7 +205,7 @@
       <b-card
     title=""
     img-src="~/assets/foto4.jpg"
-    img-alt="Image"
+    img-alt="Brinquedoteca super colorida com diversas cores e com varos lugares com brinquedos guardados"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -222,7 +225,7 @@
   <b-card
     title=""
     img-src="~/assets/foto5.jpg"
-    img-alt="Image"
+    img-alt="Brinquedoteca com diversas cores, uma estante de livros e a porta de vidro"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -236,7 +239,7 @@
     <b-card
     title=""
     img-src="~/assets/foto6.jpg"
-    img-alt="Image"
+    img-alt="Brinquedoteca com diversas cores,alguns cochonetes e uma janela"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -250,7 +253,7 @@
     <b-card
     title=""
     img-src="~/assets/foto7.jpg"
-    img-alt="Image"
+    img-alt="Sala com diveros berçarios brancos"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -267,7 +270,7 @@
       <b-card
     title=""
     img-src="~/assets/foto8.jpg"
-    img-alt="Image"
+    img-alt="Sala com diveros berçarios brancos e uma janela"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -285,7 +288,7 @@
   <b-card
     title=""
     img-src="~/assets/foto9.jpg"
-    img-alt="Image"
+    img-alt="Banheiro do berçario com foco nos lavatorios"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -299,7 +302,7 @@
     <b-card
     title=""
     img-src="~/assets/foto10.jpg"
-    img-alt="Image"
+    img-alt="Banheiro do berçario com o foco nas privadas"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -313,7 +316,7 @@
     <b-card
     title=""
     img-src="~/assets/foto11.jpg"
-    img-alt="Image"
+    img-alt="Banheiro do berçario com foco na pia"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -329,7 +332,7 @@
       <b-card
     title=""
     img-src="~/assets/foto12.jpg"
-    img-alt="Image"
+    img-alt="Playground com diveros cavalinhos e um escorregador,alem de bancos"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -347,7 +350,7 @@
   <b-card
     title=""
     img-src="~/assets/foto13.jpg"
-    img-alt="Image"
+    img-alt="Playground com cavalinhos, piscina de bolinhas, e dois escorregadores"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -361,7 +364,7 @@
     <b-card
     title=""
     img-src="~/assets/foto14.jpg"
-    img-alt="Image"
+    img-alt="Playground com o foco num grande circuito de escorregadores"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -374,7 +377,7 @@
     <b-card
     title=""
     img-src="~/assets/foto17.jpg"
-    img-alt="Image"
+    img-alt="Playground com foco em duas arvores"
     img-top
     tag="article"
     style="max-width: 20rem;"
@@ -390,7 +393,7 @@
       <b-card
     title=""
     img-src="~/assets/foto16.jpg"
-    img-alt="Image"
+    img-alt="Playground com o foco num grande circuito de escorregadores"
     img-top
     tag="article"
     style="max-width: 20rem;"

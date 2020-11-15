@@ -12,6 +12,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/nossaequipe.png"
+          alt="Professora apontando para as palavras Nossa equipe na lousa "
         ></b-carousel-slide>
       </b-carousel>
 
@@ -71,7 +72,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/Coordenadora.jpg"
-                alt=""
+                alt="Foto da coordenadora Daniela"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Daniela - Coordenadora
@@ -90,7 +91,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/prof1.jpg"
-                alt=""
+                alt="Foto da berçarista Cléo"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Cléo - Berçarista
@@ -124,7 +125,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/prof2.jpg"
-                alt=""
+                alt="Foto da auxiliar infantil Sandra"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Sandra - Aux. Infantil
@@ -144,7 +145,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/prof4.jpg"
-                alt=""
+                alt="Foto da professora do Maternal 2 Rose"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Rose - Profª Maternal 2
@@ -191,7 +192,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/ludimila.jpg"
-                alt=""
+                alt="Foto da professora do Jardim de Infacia 1 Ludmila Gambogi"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Ludmila Gambogi - Profª Jardim Inf. I
@@ -210,7 +211,7 @@
               <img
                 class="mt-3 card-colaborador"
                 src="~/assets/prof3.jpg"
-                alt=""
+                alt="Foto do professor do Jardim de Infancia 2"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Danilo - Profª Jardim de inf. II

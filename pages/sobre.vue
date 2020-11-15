@@ -12,6 +12,7 @@
         <b-carousel-slide
           caption=""
           img-src="~/assets/novo1.png"
+          alt="5 Crianças brincando a esquerda, no meio uma mulher loira lendo um livro, e a direita 5 crianças de mãos dadas "
         ></b-carousel-slide>
       </b-carousel>
     </div>
