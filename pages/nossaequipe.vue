@@ -261,9 +261,8 @@ $borda: 2px solid #5e5e5e;
     text-align: center;
   }
 
-  p {
-  }
 }
+ 
 
 b-container {
   margin-top: 10px;
