@@ -1,6 +1,6 @@
 <template>
   <div class="corpadrao1">
-    <carrosel></carrosel>
+<gif></gif>
     <b-container fluid>
       <b-row class="d-flex justify-content-center updown">
         <h1>Bem-vindo à Vilo Vincenzzi!</h1>
@@ -382,12 +382,14 @@
 <script>
 import cardVue from "../components/card.vue";
 import CardApresentation from '../components/cardApresentation.vue';
+import Gif from '../components/gif.vue';
 
 export default {
   components: {
     card: cardVue,
     CardApresentation
-  }
+  },
+    Gif
 };
 </script>
 
