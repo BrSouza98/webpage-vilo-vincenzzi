@@ -48,7 +48,6 @@ a {
   box-sizing: content-box;
   margin: 5px;
   font-weight: 600;
-  
 
   &:hover {
     animation-name: simple-border;
@@ -80,7 +79,5 @@ a {
 
 .menu {
   border-radius: 10px;
-  
 }
-
 </style>

@@ -45,14 +45,6 @@
 <script>
 export default {
     name: "cardApresentation",
-
-    data(){
-        return {
-            titulo: "Berçário",
-            alt: "card de apresentacao",
-            texto: "Berçário é até qual idade? O berçário da escola Vilo Vicenzzi atende crianças dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento e cuidados das crianças. Com profissionais especializados para cuidar dos nossos alunos com muito amor e carinho, na ausência momentânea de seus pais."
-        }
-    }
 }
 </script>
 

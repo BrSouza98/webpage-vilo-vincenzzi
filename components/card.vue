@@ -1,8 +1,12 @@
 <template>
   <div id="app" class="cardConfig">
-    <b-card-group deck>
-      <b-card :header="titulo" :alt="alt">
-        <b-card-text>{{ texto }}</b-card-text>
+    <b-card-group>
+      <b-card
+        :img-src="imagem"
+        :header="titulo"
+        :alt="alt"
+      >
+        <b-card-text class="conteudoCard">{{ texto }}</b-card-text>
       </b-card>
     </b-card-group>
   </div>
@@ -12,11 +16,11 @@
 export default {
   name: "card",
 
-  props: ["titulo", "alt", "texto"],
+  props: ["titulo", "alt", "texto", "imagem"],
 
   data() {
     return {};
-  },
+  }
 };
 </script>
 
@@ -34,6 +38,10 @@ export default {
 
 .cardConfig {
   margin: 20px;
+}
+
+.conteudoCard{
+  height: 200px;
 }
 
 .card-img,
