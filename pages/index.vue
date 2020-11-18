@@ -11,12 +11,9 @@
     <!-- Inicio blog -->
     <img src="~/assets/png2.png" alt="" class="bannersConteudo" />
 
+    <cardNoticias />
 
-<cardNoticias/>
-
-    
     <!-- Fim blog -->
-    
   </div>
 </template>
 
@@ -24,7 +21,7 @@
 import CardBlog from "../components/card-blog.vue";
 import cardVue from "../components/card.vue";
 import CardApresentation from "../components/cardApresentation.vue";
-import CardNoticias from '../components/cardNoticias.vue';
+import CardNoticias from "../components/cardNoticias.vue";
 import Gif from "../components/gif.vue";
 
 export default {
@@ -32,9 +29,9 @@ export default {
     card: cardVue,
     CardApresentation,
     CardBlog,
-    CardNoticias
+    CardNoticias,
   },
-  Gif
+  Gif,
 };
 </script>
 
@@ -80,6 +77,6 @@ export default {
   width: 100%;
   padding: 0;
   margin: 0;
-  max-height: 500px;
+  height: 500px;
 }
 </style>

@@ -5,6 +5,7 @@
         :img-src="imagem"
         :header="titulo"
         :alt="alt"
+        class="shadow-sm p-3 mb-5 bg-white rounded"
       >
         <b-card-text class="conteudoCard">{{ texto }}</b-card-text>
       </b-card>
@@ -25,6 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
@@ -45,4 +47,5 @@ export default {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 </style>

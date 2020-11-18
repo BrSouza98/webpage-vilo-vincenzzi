@@ -1,30 +1,8 @@
 <template>
   <div>
-    <navbar></navbar>
+    <navbar />
     <!-- Bloco de acessibilidade -->
     <div class="accessibility-of-button">
-      <button
-        @click="openAccessibilityOptions()"
-        class="button is-small standard-size-button is-info is-block px-1"
-      >
-        <svg
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          viewBox="0 0 13.5 15"
-          xml:space="preserve"
-          height="2em"
-          class="mr-2"
-        >
-          <path
-            style="fill: rgb(255, 255, 255)"
-            d="M13.1,3c-2,0.5-4.3,0.8-6.4,0.8S2.3,3.5,0.4,3L0,4.5c1.4,0.4,3,0.6,4.5,0.8V15H6v-4.5h1.5V15H9V5.3c1.5-0.1,3.1-0.4,4.5-0.8
-	L13.1,3z M6.8,3c0.8,0,1.5-0.7,1.5-1.5S7.6,0,6.8,0S5.3,0.7,5.3,1.5S5.9,3,6.8,3z"
-          />
-        </svg>
-        <p>Acessibilidade</p>
-      </button>
-
       <!-- Bloco de acessibilidade que fica invisivel -->
       <div
         class="has-background-info py-2 px-2 is-flex coluna"
@@ -40,11 +18,10 @@
     <!-- VLibras -->
     <VLibras :class="hiddenVLibrasAccessibility" />
 
-    <section class="l100">
       <Nuxt />
-    </section>
 
-    <rodape></rodape>
+
+    <rodape />
   </div>
 </template>
 
