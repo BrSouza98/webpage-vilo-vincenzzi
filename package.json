@@ -11,11 +11,13 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/google-gtag": "^1.0.4",
+    "@vue-a11y/vlibras": "^0.1.0",
     "bootstrap": "^4.5.2",
     "bootstrap-vue": "^2.17.3",
     "core-js": "^3.6.5",
     "i18n": "^0.13.2",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "vue-accessibility-list": "^0.1.2"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",
