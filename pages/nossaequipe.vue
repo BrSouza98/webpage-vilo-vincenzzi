@@ -1,14 +1,12 @@
 <template>
   <div class="configuracoes-globais">
     <div>
-        <img src="~/assets/nossaequipe.png" alt="" class="bannersConteudo" />
+      <img src="~/assets/nossaequipe.png" alt="" class="bannersConteudo" />
 
       <b-container fluid class="Apresentacao fundopadrao">
         <b-row>
           <b-col>
-            <h1 class="margemupdown1">
-              APRESENTAÇÃO
-            </h1>
+            <h1 class="margemupdown1">APRESENTAÇÃO</h1>
             <p class="margemupdown1">
               Nos primeiros passos, nas descobertas... A gente aprova seus
               sonhos. A Educação Infantil do Colégio Vilo Vincenzzi Taquaritinga
@@ -27,11 +25,10 @@
               Colégio Vilo Vincenzzi Taquaritinga oferece as seguintes turmas:
             </p>
 
-            <ul class="margemupdown1">
-              <li>Berçario</li>
-              <li>Fundamental I</li>
-              <li>Fundamental II</li>
-              <li>Pré-primário</li>
+            <ul>
+              <li v-for="turma in turmas" :key="turma.message">
+                {{ turma.message }}
+              </li>
             </ul>
           </b-col>
         </b-row>
@@ -40,15 +37,22 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
           <b-col class="fundoVerde col-7">
-            <h3>"Feliz aquele que transfere o que sabe e aprende o que ensina." Cora Coralina.</h3>
+            <h3>
+              "Feliz aquele que transfere o que sabe e aprende o que ensina."
+              Cora Coralina.
+            </h3>
             <p>
-              Daniela Mara Henriques é coordenadora pedagógica da EMEB Engenheiro Vilo Vincenzzi. 
-              <br>
-              Atualmente também exerce a função temporária de diretora de nossa escola.
-              <br>
-              Iniciou sua trajetória concluindo o 2°grau com habilitação para o Magistério. 
-              <br>
-              É licenciada em Ciências Biológicas e Pedagogia com especialização em Psicopedagogia.
+              Daniela Mara Henriques é coordenadora pedagógica da EMEB
+              Engenheiro Vilo Vincenzzi.
+              <br />
+              Atualmente também exerce a função temporária de diretora de nossa
+              escola.
+              <br />
+              Iniciou sua trajetória concluindo o 2°grau com habilitação para o
+              Magistério.
+              <br />
+              É licenciada em Ciências Biológicas e Pedagogia com especialização
+              em Psicopedagogia.
             </p>
           </b-col>
 
@@ -87,11 +91,16 @@
           </b-col>
 
           <b-col class="fundoVermelho col-7">
-            <h3>"Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensina." Esopo.</h3>
+            <h3>
+              "Ninguém é tão grande que não possa aprender, nem tão pequeno que
+              não possa ensina." Esopo.
+            </h3>
             <p>
-              Cleonice Rezende da Silva é berçarista responsável pelos berçários I e II.
-              <br>
-              Tem formação tecnológica em Marketing, é graduada em Pedagogia e possui especialização em Educação Especial.
+              Cleonice Rezende da Silva é berçarista responsável pelos berçários
+              I e II.
+              <br />
+              Tem formação tecnológica em Marketing, é graduada em Pedagogia e
+              possui especialização em Educação Especial.
             </p>
           </b-col>
         </b-row>
@@ -100,9 +109,16 @@
       <b-container fluid class="configuraçãoPadrao">
         <b-row cols="2">
           <b-col class="fundoAzul col-7">
-            <h3>"Educação é aquilo que fica depois que você esquece o que a escola ensinou." Albert Einstein.</h3>
-                            Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil responsável pelo Maternal I.
-                            <p>Possui formação tecnológica em Produção Industrial pela FATEC e licenciatura plena em Pedagogia.</p>
+            <h3>
+              "Educação é aquilo que fica depois que você esquece o que a escola
+              ensinou." Albert Einstein.
+            </h3>
+            Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil
+            responsável pelo Maternal I.
+            <p>
+              Possui formação tecnológica em Produção Industrial pela FATEC e
+              licenciatura plena em Pedagogia.
+            </p>
           </b-col>
 
           <b-col class="fundoBranco col-5">
@@ -117,7 +133,6 @@
               <h3 class="mt-3 w-100 d-flex justify-content-center">
                 Sandra - Aux. Infantil
               </h3>
-
             </div>
           </b-col>
         </b-row>
@@ -141,14 +156,20 @@
           </b-col>
 
           <b-col class="fundoAmarelo col-7">
-            <h3>"Educação não é preparação para a vida, é a própria vida."John Dewey.</h3>
+            <h3>
+              "Educação não é preparação para a vida, é a própria vida."John
+              Dewey.
+            </h3>
             <p>
-              Rosemeire Aparecida Colla é formada pela Faculdade ITES em Pedagogia. 
-              <br>
-              Possui pós-graduação em Educação e Sociedade pela Faculdade São Luís.
-              <br>
-              Atualmente está cursando pós-graduação em Educação e Meio Ambiente também pela Faculdade São Luís.
-              <br>
+              Rosemeire Aparecida Colla é formada pela Faculdade ITES em
+              Pedagogia.
+              <br />
+              Possui pós-graduação em Educação e Sociedade pela Faculdade São
+              Luís.
+              <br />
+              Atualmente está cursando pós-graduação em Educação e Meio Ambiente
+              também pela Faculdade São Luís.
+              <br />
               É professora do Maternal II.
             </p>
           </b-col>
@@ -160,15 +181,18 @@
           <b-col class="fundoRosa col-7">
             <h3>"Não se pode falar de educação sem amor." Paulo Freire.</h3>
             <p>
-              Ludmila Carvalho Gambogi é professora do Jardim I - 1° Etapa. 
-              <br>
-              Concluiu graduações nas áreas de Estética e Cosmética (áreas correlatas em Biologia) e Licenciatura em Pedagogia.
-              <br>
+              Ludmila Carvalho Gambogi é professora do Jardim I - 1° Etapa.
+              <br />
+              Concluiu graduações nas áreas de Estética e Cosmética (áreas
+              correlatas em Biologia) e Licenciatura em Pedagogia.
+              <br />
               É graduanda em Letras (Português e Inglês).
-              <br>
-              Pós-graduada em Alfabetização e Letramento, Neuroaprendizagem e Psicopedagogia Clínica, Institucional e Educação Especial.
-              <br>
-              Possui também formação em nível Master Business Administration em Gestão Escolar pela USP/ESALQ.
+              <br />
+              Pós-graduada em Alfabetização e Letramento, Neuroaprendizagem e
+              Psicopedagogia Clínica, Institucional e Educação Especial.
+              <br />
+              Possui também formação em nível Master Business Administration em
+              Gestão Escolar pela USP/ESALQ.
             </p>
           </b-col>
 
@@ -207,15 +231,20 @@
           </b-col>
 
           <b-col class="fundoMarrom col-7">
-            <h3>"A função da educação é ensinar a pensar criticamente e intensamento." Martin Luther King.</h3>
+            <h3>
+              "A função da educação é ensinar a pensar criticamente e
+              intensamento." Martin Luther King.
+            </h3>
             <p>
               Danilo Augusto Reinol é professor do Jardim II - 2° Etapa.
-              <br>
-              Possui graduações nas áres de Sistemas de Informação, Pedagogia e Letras (Português e Inglês).
-              É pós-graduado em nível lato sensu em Educação Especial e Inclusiva, 
-              <br>
-              Psicopedagogia Institucional e atualmente cursa Compreensão de textos e tradução da Língua Espanhola. 
-              É também mestrando em Educação pela Ufscar.
+              <br />
+              Possui graduações nas áres de Sistemas de Informação, Pedagogia e
+              Letras (Português e Inglês). É pós-graduado em nível lato sensu em
+              Educação Especial e Inclusiva,
+              <br />
+              Psicopedagogia Institucional e atualmente cursa Compreensão de
+              textos e tradução da Língua Espanhola. É também mestrando em
+              Educação pela Ufscar.
             </p>
           </b-col>
         </b-row>
@@ -225,13 +254,13 @@
 </template>
 
 <script>
-export default {};
-</script>
-
-<style></style>
-
-<script>
-export default {};
+export default {
+  data() {
+    return {
+      turmas: [{ message: "Berçario" }, { message: "Maternal I" }, { message: "Maternal II" }],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -239,6 +268,9 @@ $borda: 2px solid #5e5e5e;
 
 .configuracoes-globais {
   font-size: 1em;
+  padding: 0;
+  margin: 0;
+  height: 100%;
 }
 
 .Apresentacao {
@@ -248,9 +280,7 @@ $borda: 2px solid #5e5e5e;
     border-bottom: $borda;
     text-align: center;
   }
-
 }
- 
 
 b-container {
   margin-top: 10px;
@@ -268,6 +298,11 @@ b-container {
     font-weight: bolder;
     margin-top: 10px;
     text-align: center;
+    font-style: italic;
+  }
+
+  p{
+    margin: 20px;
   }
 }
 
@@ -307,8 +342,6 @@ b-container {
   border-bottom: $borda;
 }
 
-
-
 @media (max-width: 768px) {
   .configuracoes-globais {
     font-size: 0.9em;
@@ -327,7 +360,7 @@ b-container {
   }
 }
 
-.margemupdown1{
+.margemupdown1 {
   margin-top: 40px;
   margin-bottom: 40px;
 }

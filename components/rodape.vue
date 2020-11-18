@@ -1,17 +1,19 @@
 
 <template>
   <footer class="footer">
-    <div class="container">
+    <div class="containerRodape">
       <div class="row justify-content-around">
-        <div>
+        <div class="mapaSite">
           <h2>Vilo Vincenzzi</h2>
           <p><a href="sobre">Sobre</a></p>
           <p><a href="metodologia">Metodologia</a></p>
-        <p><a href="corpodocente">Corpo docente</a></p>
-          <p><a  href="https://vilovicenzzi.wordpress.com/"
-                  target="_blank">Blog</a></p>
-                            <p><a href="contato">Fale conosco</a></p>
-
+          <p><a href="corpodocente">Corpo docente</a></p>
+          <p>
+            <a href="https://vilovicenzzi.wordpress.com/" target="_blank"
+              >Blog</a
+            >
+          </p>
+          <p><a href="contato">Fale conosco</a></p>
         </div>
 
         <div>
@@ -92,21 +94,32 @@
       </div>
     </div>
 
-    <div style="background-color: rgb(40, 40, 40)" class="d-flex justify-content-center">
+    <div
+      style="background-color: rgb(40, 40, 40)"
+      class="d-flex justify-content-center"
+    >
       Fatec - Taquaritinga {{ new Date().getFullYear() }}
     </div>
-    
   </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+
+template{
+  height: 100%;
+}
+
 .footer {
-  background-color:  #333;
+  background-color: #333;
   color: #fff;
   font-size: 18px;
   box-sizing: border-box;
   margin-top: 50px;
 }
-</style>
 
- 
+.mapaSite{
+  a{
+    color: white;
+  }
+}
+</style>
