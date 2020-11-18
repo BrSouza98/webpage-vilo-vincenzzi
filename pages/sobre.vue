@@ -1,20 +1,7 @@
 <template>
   <div>
     <div>
-      <b-carousel
-        id="carousel-no-animation"
-        style="text-shadow: 0px 0px 2px #000"
-        no-animation
-        indicators
-        img-width="1024"
-        img-height="480"
-      >
-        <b-carousel-slide
-          caption=""
-          img-src="~/assets/novo1.png"
-          alt="5 Crianças brincando a esquerda, no meio uma mulher loira lendo um livro, e a direita 5 crianças de mãos dadas "
-        ></b-carousel-slide>
-      </b-carousel>
+        <img src="~/assets/sobrenos.png" alt="" class="bannersConteudo" />
     </div>
     <div class="cor margemupdown">
       <h2 class="textocentro margemupdown">
@@ -466,5 +453,12 @@ export default {};
 
 .corpreta {
   color: black;
+}
+
+.bannersConteudo {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-height: 650px;
 }
 </style>
