@@ -1,21 +1,6 @@
 <template>
   <div>
-    <div>
-      <b-carousel
-        id="carousel-no-animation"
-        style="text-shadow: 0px 0px 2px #000"
-        no-animation
-        indicators
-        img-width="1024"
-        img-height="480"
-      >
-        <b-carousel-slide
-          caption=""
-          img-src="~/assets/imgnovo2.png"
-          alt="5 alunos seguindo uma professora indo para esquerda"
-        ></b-carousel-slide>
-      </b-carousel>
-    </div>
+       <img src="~/assets/metodologia.png" alt="" class="bannersConteudo" />
 
     <div class="">
       <b-container fluid class="configuraçãoPadrao">
@@ -226,6 +211,13 @@ img{
 {
   margin-bottom: 40px;
   margin-top: 40px;
+}
+
+.bannersConteudo {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-height: 650px;
 }
 </style>
 

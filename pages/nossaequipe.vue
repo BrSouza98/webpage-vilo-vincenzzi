@@ -1,20 +1,7 @@
 <template>
   <div class="configuracoes-globais">
     <div>
-      <b-carousel
-        id="carousel-no-animation"
-        style="text-shadow: 0px 0px 2px #000"
-        no-animation
-        indicators
-        img-width="1024"
-        img-height="480"
-      >
-        <b-carousel-slide
-          caption=""
-          img-src="~/assets/nossaequipe.png"
-          alt="Professora apontando para as palavras Nossa equipe na lousa "
-        ></b-carousel-slide>
-      </b-carousel>
+        <img src="~/assets/nossaequipe.png" alt="" class="bannersConteudo" />
 
       <b-container fluid class="Apresentacao fundopadrao">
         <b-row>
@@ -343,5 +330,12 @@ b-container {
 .margemupdown1{
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.bannersConteudo {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-height: 650px;
 }
 </style>
