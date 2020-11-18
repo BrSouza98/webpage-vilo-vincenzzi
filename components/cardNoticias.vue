@@ -1,24 +1,28 @@
 <template>
   <div>
-    <card-blog
+    <b-container class="bv-example-row">
+        <b-row>
+<b-col>    <card-blog
       titulo="Papel social"
       subTitulo="Nossas ações durante plena pandemia"
-      texto="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis accusantium voluptatibus voluptatum qui velit quaerat iste, eligendi facilis, dignissimos molestias saepe adipisci rerum distinctio eius iusto ullam impedit vel molestiae!"
-    />
+      texto="A grande verdade é que os professores NUNCA pararam de trabalhar.Nos papéis, férias, recesso escolar, educação à distância ou remota…Na realidade? Planejamentos, replanejamentos, cursos, formações, inquietações, noites mal dormidas, preocupações com seus alunos, além do dobro de trabalho levado para suas casas."
+    /></b-col>
 
     
-    <card-blog
+<b-col>    <card-blog
       titulo="Papel social"
       subTitulo="Nossas ações durante plena pandemia"
-      texto="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis accusantium voluptatibus voluptatum qui velit quaerat iste, eligendi facilis, dignissimos molestias saepe adipisci rerum distinctio eius iusto ullam impedit vel molestiae!"
-    />
+      texto="A grande verdade é que os professores NUNCA pararam de trabalhar.Nos papéis, férias, recesso escolar, educação à distância ou remota…Na realidade? Planejamentos, replanejamentos, cursos, formações, inquietações, noites mal dormidas, preocupações com seus alunos, além do dobro de trabalho levado para suas casas."
+    /></b-col>
 
     
-    <card-blog
+<b-col>    <card-blog
       titulo="Papel social"
       subTitulo="Nossas ações durante plena pandemia"
-      texto="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis accusantium voluptatibus voluptatum qui velit quaerat iste, eligendi facilis, dignissimos molestias saepe adipisci rerum distinctio eius iusto ullam impedit vel molestiae!"
-    />
+      texto="A grande verdade é que os professores NUNCA pararam de trabalhar.Nos papéis, férias, recesso escolar, educação à distância ou remota…Na realidade? Planejamentos, replanejamentos, cursos, formações, inquietações, noites mal dormidas, preocupações com seus alunos, além do dobro de trabalho levado para suas casas."
+    /></b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -31,3 +35,6 @@ export default {
 <style>
 
 </style>
+
+
+

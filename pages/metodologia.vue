@@ -127,14 +127,32 @@
           <b-col class="cor">
             <h2>Grupo 4 - Jardim I e Grupo 5 - Jardim II</h2>
             <p>
-              Vai vir outra foto abaixo
+             PLANO DE ENSINO JARDIM 1 – 3 a 4 anos:
             </p>
+            <ul>
+              <li>
+                Aprender a expressar seus desejos, sentimentos, vontades e desagravos e a agir com progressiva autonomia
+              </li>
+              <li>Interessar-se progressivamente pelo cuidado com o próprio corpo, executando ações simples relacionadas à saúde e à higiene.</li>
+              <li>Relacionar-se progressivamente com as crianças, com seus professores e com outros adultos.</li>
+              <li>Ter uma imagem positiva de si, ampliando sua autoconfiança.</li>
+              <li>Enfrentar situações de conflito, utilizando seus recursos pessoais, respeitando as outras crianças e os adultos e exigindo reciprocidade.</li>
+              <li>Ouvir e contar fatos, ocorridos, falar de sentimentos.</li>
+              <li>Recontar histórias conhecidas por meio de deferentes portadores de textos e vivências de diversas situações, nas quais se faz necessária, compreendendo a sua função social.</li>
+              <li>Tentar ler e escrever segundo suas hipóteses.</li>
+              <li>econhecer, compreender e utilizar os diferentes símbolos convencionalmente como forma de representação em textos lidos e ouvidos.</li>
+              <li>Utilizar-se da linguagem matematicamente.</li>
+              <li>Construir o significado dos números naturais em situações de contagem, medida e códigos numéricos, nos diferentes contextos: social, matemáticos e outros.</li>
+              <li>Perceber, a partir de acontecimentos , a noção de tempo, tendo como referência a sua rotina diária.</li>
+              <li>Reconhecer, na paisagem local e no lugar em que se encontram inseridos, as diferentes manifestações da natureza presentes em outras paisagens.</li>
+              <li>Comparar seres vivos, estabelecendo diferenças e semelhanças, quanto à alimentação, à respiração, ao crescimento e à reprodução.</li>
+            </ul>
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
                 class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded"
-                src="~/assets/positivo2.jpg"
+                src="~/assets/positivo100.jpg"
                 alt=""
               />
             </div>

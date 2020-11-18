@@ -40,10 +40,6 @@ export default {
   margin: 20px;
 }
 
-.conteudoCard{
-  height: 200px;
-}
-
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: 0;
