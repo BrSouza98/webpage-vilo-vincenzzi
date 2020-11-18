@@ -1,32 +1,39 @@
 <template>
   <div>
-    <b-card class="espacoclasse" :title="titulo" :sub-title="subTitulo">
+    <b-card
+      :title="titulo"
+      :img-src="imagem"
+      img-alt="ImagemAlt"
+      img-top
+      tag="article"
+      style="max-width: 20rem"
+      class="mb-2"
+    >
       <b-card-text>
         {{texto}}
       </b-card-text>
 
-      <b-button class="espacobotao" variant="primary"><a class="corpreta" href="https://vilovicenzzi.wordpress.com/2020/10/12/nosso-trabalho-em-plena-pandemia/" target="_blank">Acessar materia</a></b-button>
-      <b-button class="espacobotao" variant="outline-primary"><a class="corpreta" href="https://vilovicenzzi.wordpress.com/" target="_blank">Acessar Blog completo</a></b-button>
+      <b-button href="#" variant="primary">Ler</b-button>
     </b-card>
   </div>
 </template>
 
 <script>
 export default {
-    name: 'card-blog',
-    props:['titulo', 'subTitulo', 'texto']
+  name: "card-blog",
+  props: ['titulo', 'texto', 'imagem'],
 };
 </script>
 
 <style>
-.corpreta{
+.corpreta {
   color: black;
 }
 
-.espacobotao{
+.espacobotao {
   margin-bottom: 20px;
 }
-.espacoclasse{
+.espacoclasse {
   margin-top: 40px;
 }
 </style>
