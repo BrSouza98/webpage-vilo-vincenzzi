@@ -2,7 +2,6 @@
   <div id="app" class="cardConfig">
     <b-card-group>
       <b-card
-        :img-src="imagem"
         :header="titulo"
         :alt="alt"
         class="shadow-sm p-3 mb-5 bg-white rounded"
@@ -17,7 +16,7 @@
 export default {
   name: "card",
 
-  props: ["titulo", "alt", "texto", "imagem"],
+  props: ["titulo", "alt", "texto",],
 
   data() {
     return {};

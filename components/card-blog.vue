@@ -2,7 +2,7 @@
   <div>
     <b-card
       :title="titulo"
-      :img-src="imagem"
+      img-src="~/assets/noticia1.jpg"
       img-alt="ImagemAlt"
       img-top
       tag="article"
