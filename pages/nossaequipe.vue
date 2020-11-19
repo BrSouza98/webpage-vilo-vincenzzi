@@ -313,13 +313,25 @@ b-container {
 }
 
 .fundoVerde {
-  background-color: #13a18e;
+  background-color: #019682;
   border-bottom: $borda;
 }
 
-.fundoVermelho {
-  background-color: #a1132b;
+.fundoVerde:hover {
+  background-color: #03473e;
   border-bottom: $borda;
+  transition: 1s;
+}
+
+.fundoVermelho {
+  background-color: #b81530;
+  border-bottom: $borda;
+}
+
+.fundoVermelho:hover {
+  background-color: #810a1e;
+  border-bottom: $borda;
+  transition: 1s;
 }
 
 .fundoAzul {
@@ -327,19 +339,43 @@ b-container {
   border-bottom: $borda;
 }
 
+.fundoAzul:hover {
+  background-color: #035379;
+  border-bottom: $borda;
+  transition: 1s;
+}
+
 .fundoAmarelo {
   background-color: #797700;
   border-bottom: $borda;
 }
 
+.fundoAmarelo:hover {
+  background-color: #555400;
+  border-bottom: $borda;
+  transition: 1s;
+}
+
 .fundoRosa {
-  background-color: #79005b;
+  background-color: #961475;
   border-bottom: $borda;
 }
 
-.fundoMarrom {
-  background-color: #612c1f;
+.fundoRosa:hover {
+  background-color: #6b0050;
   border-bottom: $borda;
+  transition: 1s;
+}
+
+.fundoMarrom {
+  background-color: #6e382b;
+  border-bottom: $borda;
+}
+
+.fundoMarrom:hover {
+  background-color: #532419;
+  border-bottom: $borda;
+  transition: 1s;
 }
 
 @media (max-width: 768px) {
