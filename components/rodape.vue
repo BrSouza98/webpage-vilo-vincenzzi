@@ -41,6 +41,12 @@
                 <b-icon icon="mailbox" />
                 vilovicenzzi@gmail.com
               </p>
+              <a href="https://www.facebook.com/profile.php?id=100009453482303" target="_blank">
+              <img
+                class="faceIcon"
+                src="~/assets/faceWhite.png"
+                alt="Ícone do Facebook">
+              </a>
             </div>
           </b-col>
         </b-row>
@@ -64,6 +70,11 @@
   margin-top: 50px;
   padding-top: 10px;
 }
+
+.faceIcon {
+  width: 6%;
+}
+
 
 .mapaSite {
   a {
