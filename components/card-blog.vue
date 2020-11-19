@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="espacoclasse">
     <b-card
       :title="titulo"
       img-src="~/assets/noticia1.jpg"
@@ -13,7 +13,7 @@
         {{texto}}
       </b-card-text>
 
-      <b-button href="#" variant="primary">Ler</b-button>
+      <b-button href="https://vilovicenzzi.wordpress.com/" target="_blank" variant="primary">Ler</b-button>
     </b-card>
   </div>
 </template>
