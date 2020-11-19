@@ -335,12 +335,12 @@ b-container {
 }
 
 .fundoAzul {
-  background-color: #1374a1;
+  background-color: #0c78aa;
   border-bottom: $borda;
 }
 
 .fundoAzul:hover {
-  background-color: #035379;
+  background-color: #004768;
   border-bottom: $borda;
   transition: 1s;
 }
