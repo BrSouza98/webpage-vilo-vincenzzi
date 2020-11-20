@@ -208,7 +208,7 @@
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
-                class="mt-3 card-colaborador"
+                class="mt-3 card-colaborador imgLud"
                 src="~/assets/ludimila.jpg"
                 alt="Foto da professora do Jardim de Infacia 1 Ludmila Gambogi"
               />
@@ -232,7 +232,7 @@
                 alt="Foto do professor do Jardim de Infancia 2"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
-                Danilo - Profª Jardim de inf. II
+                Danilo - Prof. Jardim de inf. II
               </h3>
             </div>
           </b-col>
@@ -300,12 +300,17 @@ b-container {
   font-weight: bolder;
   img {
     border-radius: 3px;
-    width: 32%;
+    width: 33%;
+  }
+
+  .imgLud {
+    width: 200px;
+    height: 270px;
   }
 
   h3 {
     font-weight: bolder;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     font-style: italic;
   }
@@ -314,6 +319,7 @@ b-container {
     margin: 20px;
   }
 }
+
 
 .fundoBranco {
   background-color: #f3f3f3;
