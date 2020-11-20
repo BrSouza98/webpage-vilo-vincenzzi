@@ -44,13 +44,16 @@
             <p>
               Daniela Mara Henriques é coordenadora pedagógica da EMEB
               Engenheiro Vilo Vincenzzi.
-              <br />
+              <br>
+              <br>
               Atualmente também exerce a função temporária de diretora de nossa
               escola.
-              <br />
+              <br>
+              <br>
               Iniciou sua trajetória concluindo o 2°grau com habilitação para o
               Magistério.
-              <br />
+              <br>
+              <br>
               É licenciada em Ciências Biológicas e Pedagogia com especialização
               em Psicopedagogia.
             </p>
@@ -98,7 +101,8 @@
             <p>
               Cleonice Rezende da Silva é berçarista responsável pelos berçários
               I e II.
-              <br />
+              <br>
+              <br>
               Tem formação tecnológica em Marketing, é graduada em Pedagogia e
               possui especialização em Educação Especial.
             </p>
@@ -115,10 +119,11 @@
             </h3>
             Sandra Ruy Bruno Bota é Auxiliar de Desenvolvimento Infantil
             responsável pelo Maternal I.
-            <p>
+            <br>
+            <br>
               Possui formação tecnológica em Produção Industrial pela FATEC e
               licenciatura plena em Pedagogia.
-            </p>
+            <br>
           </b-col>
 
           <b-col class="fundoBranco col-5">
@@ -161,16 +166,18 @@
               Dewey.
             </h3>
             <p>
-              Rosemeire Aparecida Colla é formada pela Faculdade ITES em
-              Pedagogia.
-              <br />
+              Rosemeire Aparecida Colla é professora do Maternal II.
+              <br>
+              <br>
+              Formada pela Faculdade ITES em Pedagogia.
+              <br>
+              <br>
               Possui pós-graduação em Educação e Sociedade pela Faculdade São
               Luís.
-              <br />
+              <br>
+              <br>
               Atualmente está cursando pós-graduação em Educação e Meio Ambiente
               também pela Faculdade São Luís.
-              <br />
-              É professora do Maternal II.
             </p>
           </b-col>
         </b-row>
@@ -182,15 +189,15 @@
             <h3>"Não se pode falar de educação sem amor." Paulo Freire.</h3>
             <p>
               Ludmila Carvalho Gambogi é professora do Jardim I - 1° Etapa.
-              <br />
-              Concluiu graduações nas áreas de Estética e Cosmética (áreas
-              correlatas em Biologia) e Licenciatura em Pedagogia.
-              <br />
-              É graduanda em Letras (Português e Inglês).
-              <br />
+              <br>
+              <br>
+              Licenciatura em Pedagogia e atualmente graduanda em Letras (Português e Inglês).
+              <br>
+              <br>
               Pós-graduada em Alfabetização e Letramento, Neuroaprendizagem e
               Psicopedagogia Clínica, Institucional e Educação Especial.
-              <br />
+              <br>
+              <br>
               Possui também formação em nível Master Business Administration em
               Gestão Escolar pela USP/ESALQ.
             </p>
@@ -238,10 +245,12 @@
             <p>
               Danilo Augusto Reinol é professor do Jardim II - 2° Etapa.
               <br />
+              <br>
               Possui graduações nas áres de Sistemas de Informação, Pedagogia e
               Letras (Português e Inglês). É pós-graduado em nível lato sensu em
               Educação Especial e Inclusiva,
               <br />
+              <br>
               Psicopedagogia Institucional e atualmente cursa Compreensão de
               textos e tradução da Língua Espanhola. É também mestrando em
               Educação pela Ufscar.
