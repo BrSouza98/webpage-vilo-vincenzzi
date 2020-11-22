@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-navbar align-h="between" class="w-100 d-flex justify-content-between">
+      <b-navbar align-h="between" class="w-100 d-flex justify-content-between Cor-navbar">
         <b-navbar-brand href="/"> Vilo Vincenzzi </b-navbar-brand>
 
         <div id="menuPequeno">
@@ -65,9 +65,17 @@ export default {};
 
 <style lang="scss" scoped>
 //regras do menu e interações
+$cor-primaria: rgb(240, 240, 240);
+$cor-secundaria: rgb(70, 70, 70);
+$preto: rgb(29, 29, 29);
+
+.Cor-navbar{
+  background-color: $cor-primaria;
+}
+
 a {
-  color: rgb(70, 70, 70);
-  border-bottom: 3px solid #f8f9fa;
+  color: $cor-secundaria;
+  border-bottom: 3px solid $cor-primaria;
   box-sizing: content-box;
   margin: 5px;
   font-weight: 600;
@@ -77,27 +85,22 @@ a {
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    border-bottom-color: black;
+    border-bottom-color: rgb(29, 29, 29);
     color: black;
   }
 }
 
 @keyframes simple-border {
   from {
-    border-bottom-color: #f8f9fa;
+    border-bottom-color: $cor-primaria
   }
   to {
-    border-bottom-color: black;
+    border-bottom-color: $preto;
   }
-}
-
-//cor do menu
-.bg-info {
-  background-color: #ffffff !important;
 }
 
 .navbar-dark .navbar-brand {
-  color: rgb(0, 0, 0);
+  color: $preto;
 }
 
 .menu {
@@ -113,7 +116,7 @@ a {
   flex-direction: initial;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 790px) {
   #menuGrande {
     display: none;
   }
