@@ -1,8 +1,11 @@
 <template>
   <div>
     <div>
-      <b-navbar align-h="between" class="w-100 d-flex justify-content-between Cor-navbar">
-        <b-navbar-brand href="/"> Vilo Vincenzzi </b-navbar-brand>
+      <b-navbar
+        align-h="between"
+        class="w-100 d-flex justify-content-between Cor-navbar"
+      >
+        <b-navbar-brand href="/" id="paginaInicial"><img src="@/assets/vilo-icone.png" alt=""></b-navbar-brand>
 
         <div id="menuPequeno">
           <b-button
@@ -12,7 +15,8 @@
           >
             <b-icon icon="grid-fill"></b-icon>
           </b-button>
-          <b-sidebar id="sidebar-right" title="Menu" right shadow>
+
+          <b-sidebar id="sidebar-right" class="my-sidebar" title="Menu" right shadow>
             <div class="px-3 py-2">
               <b-nav class="ml-auto">
                 <b-nav class="d-block">
@@ -69,7 +73,8 @@ $cor-primaria: rgb(240, 240, 240);
 $cor-secundaria: rgb(70, 70, 70);
 $preto: rgb(29, 29, 29);
 
-.Cor-navbar{
+
+.Cor-navbar {
   background-color: $cor-primaria;
 }
 
@@ -82,17 +87,17 @@ a {
 
   &:hover {
     animation-name: simple-border;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     border-bottom-color: rgb(29, 29, 29);
-    color: black;
+    color: $preto;
   }
 }
 
 @keyframes simple-border {
   from {
-    border-bottom-color: $cor-primaria
+    border-bottom-color: $cor-primaria;
   }
   to {
     border-bottom-color: $preto;
@@ -123,6 +128,25 @@ a {
 
   #menuPequeno {
     display: inherit;
+    a {
+      font-size: 21px;
+      padding: 10px;
+      margin: 10px;
+      &:hover{
+        margin-left: 15px;
+      }
+    }
+
+    @keyframes simple-border {
+      from {
+        border-bottom-color: $cor-primaria;
+        margin-left: 10px;
+      }
+      to {
+        border-bottom-color: $preto;
+        margin-left: 15px;
+      }
+    }
   }
 }
 </style>
