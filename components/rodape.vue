@@ -47,6 +47,13 @@
                 src="~/assets/faceWhite.png"
                 alt="Ícone do Facebook">
               </a>
+              <a href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA" target="_blank">
+              <img
+                class="youtubeIcon"
+                src="~/assets/youtubeBlack.png"
+                alt="Ícone do youtube">
+              </a>
+              
             </div>
           </b-col>
         </b-row>
@@ -72,7 +79,12 @@
 }
 
 .faceIcon {
-  width: 6%;
+  width: 4%;
+}
+
+.youtubeIcon {
+  width: 4%;
+  margin-left: 10px;
 }
 
 
