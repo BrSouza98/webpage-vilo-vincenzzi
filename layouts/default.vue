@@ -2,15 +2,13 @@
   <div>
     <navbar />
     <!-- Bloco de acessibilidade -->
-    <div class="accessibility-of-button">
+    <div class="acessibilidade">
       <!-- Bloco de acessibilidade que fica invisivel -->
-      <div
-        class="has-background-info py-2 px-2 is-flex coluna"
-        :class="accessibilityVision"
-      >
+      <div :class="accessibilityVision">
         <AccessibilityList
           :position="position"
           :backgroundColor="backgroundColor"
+          :border-radius="borderRadius"
         />
       </div>
     </div>
@@ -18,8 +16,7 @@
     <!-- VLibras -->
     <VLibras :class="hiddenVLibrasAccessibility" />
 
-      <Nuxt />
-
+    <Nuxt />
 
     <rodape />
   </div>
@@ -46,7 +43,8 @@ export default {
     hiddenVLibrasAccessibility: "",
     // Dados do AccessibilityList
     position: "right",
-    backgroundColor: "hsl(217, 71%, 53%)",
+    backgroundColor: "rgb(230, 230, 230)",
+    borderRadius: "20px"
   }),
   methods: {
     // Método de abrir e fechar o componente de acessibilidade.
@@ -86,18 +84,6 @@ html {
 
 .coluna {
   flex-direction: column;
-}
-
-/* Posição do botão de acessibilidade */
-.accessibility-of-button {
-  z-index: 99999;
-  position: fixed;
-  right: 0;
-  top: 7em;
-}
-/* Tira a altura padrão que os botões do Bulma tem */
-.standard-size-button {
-  height: auto;
 }
 
 </style>
