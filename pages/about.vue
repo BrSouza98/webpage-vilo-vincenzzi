@@ -6,73 +6,69 @@
     <div class="cor margemupdown">
       <h2 class="textocentro margemupdown">
         <b
-          >Somos uma escola de Educação Infantil da rede municipal de
-          Taquaritinga</b
+          >We are a school of child education from the town network of taquaritinga</b
         >
       </h2>
       <b-container fluid class="bv-example-row">
         <div>
           <p></p>
           <h2 class="textocentro margemupdown">
-            <b>Nossa Escola</b>
+            <b>Our school</b>
           </h2>
           <p>
-            A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi
-            criada em 20 de março de 2015.
+            The town school of basic education Engineer Vilo Vicenzzi was created in 20 of march of 2015.
           </p>
           <p>
-            Contamos com uma equipe que ama o que faz, fazendo tudo com muito
-            amor e carinho por nossos alunos..
+            We count with a team that loves what they do, doing everything with great love and affection for our school children.
           </p>
         </div>
         <div>
           <p></p>
           <h2 class="textocentro margemupdown">
-            <b>Turmas</b>
+            <b>Classes/b>
           </h2>
-          <p>Educação infantil - Creche</p>
-          <p>Aulas no período da Manhã</p>
-          <p>Números de turmas 3 / Média de alunos por turma: 15</p>
-          <p>Educação infantil - Pré-escola</p>
-          <p>Aulas no período da Manhã</p>
-          <p>Número de turmas 2 / Média de alunos por turma: 25</p>
+          <p>Child education - Day care </p>
+          <p>Classes on the morning </p>
+          <p>Number of classes 3 / Average of students by class: 15</p>
+          <p>Child education - Kindergarten</p>
+          <p>Classes on the morning</p>
+          <p>Number of classes 2 / Average of students by class: 25</p>
         </div>
 
         <div>
           <h2 class="textocentro margemupdown">
-            <b>Infraestrutura</b>
+            <b>Infrastructure</b>
           </h2>
 
           <b-container fluid class="bv-example-row justify-content-evenly">
             <b-row>
               <b-col>
-                <p>• Alimentação escolar para os alunos.</p>
-                <p>• Água filtrada.</p>
-                <p>• Água da rede pública.</p>
-                <p>• Energia da rede pública.</p>
-                <p>• Sala de secretaria.</p>
-                <p>• Almoxarifado.</p>
+                <p>• School lunch for the students.</p>
+                <p>• Filtered water.</p>
+                <p>• Water from the public network.</p>
+                <p>• Electricty from the public network.</p>
+                <p>• Secretariat room.</p>
+                <p>• Warehouse.</p>
               </b-col>
 
               <b-col>
-                <p>• Esgoto da rede pública.</p>
-                <p>• Lixo destinado à coleta periódica;</p>
-                <p>• Acesso à Internet.</p>
-                <p>• Banda larga.</p>
+                <p>• Sewer from the public network.</p>
+                <p>• Trash destined for the periodic collection .</p>
+                <p>• Internet access.</p>
+                <p>• Broadband.</p>
                 <p>
-                  • Banheiro adequado à alunos com deficiência ou mobilidade
-                  reduzida.
+                  • Bathroom specialized for students with deficiency or reduced mobility.
                 </p>
-                <p>• Despensa.</p>
+                <p>• Pantry.</p>
               </b-col>
 
               <b-col>
-                <p>• 7 salas de aulas.</p>
-                <p>• Sala de diretoria.</p>
-                <p>• Sala de professores.</p>
-                <p>• Cozinha.</p>
-                <p>• Banheiro adequado à educação infantil.</p>
-                <p>• Refeitório.</p>
+                <p>• 7 classrooms.</p>
+                <p>• Board room.</p>
+                <p>• Teachers' room.</p>
+                <p>• kitchen.</p>
+                <p>• Adequate bathroom for child education.</p>
+                <p>• Dining hall.</p>
               </b-col>
             </b-row>
           </b-container>
@@ -80,7 +76,7 @@
       </b-container>
     </div>
     <div class="textocentro margemupdown">
-      <h2><b>Fotos da nossa escola</b></h2>
+      <h2><b>Pictures of our school</b></h2>
     </div>
 
     <div class="card-header1 corpadrao1">
@@ -98,7 +94,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto1.jpg"
             target="_blank"
-            >Refeitorio</a
+            >Dining hall</a
           >
         </b-card-text>
       </b-card>
@@ -117,7 +113,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto2.jpg"
             target="_blank"
-            >Refeitorio</a
+            >Dining hall</a
           >
         </b-card-text>
       </b-card>
@@ -136,7 +132,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto3.jpg"
             target="_blank"
-            >Jardim de infância 1</a
+            >Kindergarten 1</a
           >
         </b-card-text>
       </b-card>
@@ -155,7 +151,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto4.jpg"
             target="_blank"
-            >Brinquedoteca</a
+            >Playroom</a
           >
         </b-card-text>
       </b-card>
@@ -176,7 +172,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto5.jpg"
             target="_blank"
-            >Brinquedoteca</a
+            >Playroom</a
           >
         </b-card-text>
       </b-card>
@@ -195,7 +191,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto6.jpg"
             target="_blank"
-            >Brinquedoteca</a
+            >Playroom</a
           >
         </b-card-text>
       </b-card>
@@ -214,7 +210,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto7.jpg"
             target="_blank"
-            >Sala do berçario</a
+            >Nursery </a
           >
         </b-card-text>
       </b-card>
@@ -233,7 +229,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto8.jpg"
             target="_blank"
-            >Sala do berçario</a
+            >Nursery </a
           >
         </b-card-text>
       </b-card>
@@ -253,7 +249,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto9.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Nursery bathroom</a
           >
         </b-card-text>
       </b-card>
@@ -272,7 +268,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto10.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Nursery bathroom</a
           >
         </b-card-text>
       </b-card>
@@ -291,7 +287,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto11.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Nursery bathroom</a
           >
         </b-card-text>
       </b-card>
