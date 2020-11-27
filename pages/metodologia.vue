@@ -12,7 +12,7 @@
       </b-container>
 
       <b-container fluid class="bv-example-row">
-        <b-row>
+        <b-row cols="1" cols-lg="2">
           <b-col>
             <p>
               <b>Matemática:</b> contagem, noção de quantidade, formas
@@ -44,8 +44,8 @@
                 Folha de abertura com tema que possibilita atividades envolvendo
                 artes, dramatizações, músicas, etc.
               </li>
-            </ul></b-col
-          >
+            </ul>
+          </b-col>
 
           <b-col>
             <div
@@ -62,7 +62,7 @@
     </div>
 
     <b-container fluid class="bv-example-row">
-      <b-row>
+      <b-row cols="1" cols-lg="2">
         <b-col
           ><h2>Grupo 2 - Maternal I e Grupo 3 - Maternal II</h2>
           <p>
@@ -95,7 +95,7 @@
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row>
+      <b-row cols="1" cols-lg="2">
         <b-col>
           <h2>Educação Infantil Grupo 4 (4 anos) e Grupo 5 (5 anos)</h2>
           <ul>
@@ -133,25 +133,20 @@
         >
 
         <b-col>
-          <div
-            class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
-          >
-            <img
-              class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
-              src="~/assets/positivo12.png"
-              alt="Os diversos livros usados na educação das crianças"
-            /></div
-        ></b-col>
+          <img
+            class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+            src="~/assets/positivo12.png"
+            alt="Os diversos livros usados na educação das crianças"
+          />
+        </b-col>
       </b-row>
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row>
+      <b-row cols="1" cols-lg="2">
         <b-col>
           <h2>Grupo 4 - Jardim I e Grupo 5 - Jardim II</h2>
-          <p>
-            PLANO DE ENSINO JARDIM 1 – 3 a 4 anos:
-          </p>
+          <p>PLANO DE ENSINO JARDIM 1 – 3 a 4 anos:</p>
           <ul>
             <li>
               Aprender a expressar seus desejos, sentimentos, vontades e
@@ -165,17 +160,13 @@
               Relacionar-se progressivamente com as crianças, com seus
               professores e com outros adultos.
             </li>
-            <li>
-              Ter uma imagem positiva de si, ampliando sua autoconfiança.
-            </li>
+            <li>Ter uma imagem positiva de si, ampliando sua autoconfiança.</li>
             <li>
               Enfrentar situações de conflito, utilizando seus recursos
               pessoais, respeitando as outras crianças e os adultos e exigindo
               reciprocidade.
             </li>
-            <li>
-              Ouvir e contar fatos, ocorridos, falar de sentimentos.
-            </li>
+            <li>Ouvir e contar fatos, ocorridos, falar de sentimentos.</li>
             <li>
               Recontar histórias conhecidas por meio de deferentes portadores de
               textos e vivências de diversas situações, nas quais se faz
@@ -223,7 +214,7 @@
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row>
+      <b-row cols="1" cols-lg="2">
         <b-col>
           <h2 class="margemupdown1">Educação Infantil I e II - 2 e 3 anos</h2>
           <h2 class="margemupdown1">Apostilas Positivo</h2>
@@ -241,7 +232,7 @@
 
         <b-col
           ><div
-            class="d-flex flex-wrap align-items-center justify-content-center margemupdown1 "
+            class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
           >
             <img
               class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
