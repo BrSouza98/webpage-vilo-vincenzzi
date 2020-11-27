@@ -2,7 +2,7 @@
   <div class="espacoclasse">
     <b-card
       :title="titulo"
-      img-src="~/assets/noticia1.jpg"
+      img-src="~/assets/emebfoto.png"
       img-alt="ImagemAlt"
       img-top
       tag="article"
@@ -13,7 +13,7 @@
         {{texto}}
       </b-card-text>
 
-      <b-button href="https://vilovicenzzi.wordpress.com/" target="_blank" variant="primary">Ler</b-button>
+      <b-button href="https://wordpress.com/page/vilovicenzzi.wordpress.com/7" target="_blank" variant="primary">Ler</b-button>
     </b-card>
   </div>
 </template>
