@@ -43,13 +43,13 @@
               </p>
               <a href="https://www.facebook.com/profile.php?id=100009453482303" target="_blank">
               <img
-                class="faceIcon"
+                class="faceIcon bottomarg"
                 src="~/assets/faceWhite.png"
                 alt="Ícone do Facebook">
               </a>
               <a href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA" target="_blank">
               <img
-                class="youtubeIcon"
+                class="youtubeIcon bottomarg"
                 src="~/assets/youtubeBlack.png"
                 alt="Ícone do youtube">
               </a>
@@ -79,11 +79,11 @@
 }
 
 .faceIcon {
-  width: 4%;
+  width: 30px;
 }
 
 .youtubeIcon {
-  width: 4%;
+  width: 30px;
   margin-left: 10px;
 }
 
@@ -102,5 +102,9 @@
 .col {
   display: flex;
   justify-content: center;
+}
+
+.bottomarg{
+  margin-bottom: 20px;
 }
 </style>
