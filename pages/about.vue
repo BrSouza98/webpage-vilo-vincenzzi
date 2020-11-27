@@ -25,7 +25,7 @@
         <div>
           <p></p>
           <h2 class="textocentro margemupdown">
-            <b>Classes/b>
+            <b>Classes</b>
           </h2>
           <p>Child education - Day care </p>
           <p>Classes on the morning </p>
