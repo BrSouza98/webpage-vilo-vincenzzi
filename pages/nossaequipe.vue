@@ -330,12 +330,14 @@ b-container {
 .fundoVerde {
   background-color: #019682;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoVerde:hover {
+.fundoVerde:hover,
+.fundoVerde:focus {
   background-color: #03473e;
   border-bottom: $borda;
-  transition: 1s;
+  
 }
 
 .fundoVermelho {
