@@ -7,8 +7,8 @@
             alt="card de apresentacao"
             texto="Berçário é até qual idade? O berçário da escola Vilo Vicenzzi atende crianças 
             dos 4 meses aos 2 anos de idade. Nossa instituição se dedica ao acompanhamento e cuidados das crianças. 
-            Com profissionais especializados para cuidar dos nossos alunos com muito amor e carinho, 
-            na ausência momentânea de seus pais."
+            Berçários são como a segunda casa dos bebês e por isso contamos com uma ótima estrutura e com profissionais especializados para cuidar dos nossos alunos com muito amor e carinho, 
+            na ausência momentânea de seus pais em suas atividades diárias de rotina."
           ></card>
         </b-col>
 
@@ -33,9 +33,7 @@
             e está dividido em 1ª e 2ª Etapas. Contribuímos para o desenvolvimento da linguagem e do 
             vocabulário dos nossos alunos, pois é importante na aprendizagem da leitura e da escrita e
             na aquisição de muitos outros conhecimentos. Também trabalhamos com jogos e brincadeiras, 
-            livres ou orientadas, de modo a promover o desenvolvimento integral das crianças. 
-            Os objetivos para essa fase são baseados nos campos de experiência e direitos de 
-            aprendizagem descritos na Base Nacional Comum Curricular."
+            livres ou orientadas, de modo a promover o desenvolvimento integral das crianças."
           ></card>
         </b-col>
       </b-row>
