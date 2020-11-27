@@ -1,10 +1,10 @@
 
 <template>
-  <footer class="footer">
+  <footer>
     <div>
-      <b-container fluid class="footer">
-        <b-row class="">
-          <b-col>
+      <b-container fluid="lg" class="footer d-flex justify-content-lg-around justify-content-sm-center">
+        <b-row cols="1" cols-lg="2" class="w-100">
+          <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
             <div class="mapaSite">
               <h2>Vilo Vincenzzi</h2>
               <p><a href="sobre">Sobre</a></p>
@@ -19,7 +19,7 @@
             </div>
           </b-col>
 
-          <b-col>
+          <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
             <div>
               <h3>Informações de contato</h3>
               <p class="margem">
@@ -41,19 +41,26 @@
                 <b-icon icon="mailbox" />
                 vilovicenzzi@gmail.com
               </p>
-              <a href="https://www.facebook.com/profile.php?id=100009453482303" target="_blank">
-              <img
-                class="faceIcon bottomarg"
-                src="~/assets/faceWhite.png"
-                alt="Ícone do Facebook">
+              <a
+                href="https://www.facebook.com/profile.php?id=100009453482303"
+                target="_blank"
+              >
+                <img
+                  class="faceIcon bottomarg"
+                  src="~/assets/faceWhite.png"
+                  alt="Ícone do Facebook"
+                />
               </a>
-              <a href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA" target="_blank">
-              <img
-                class="youtubeIcon bottomarg"
-                src="~/assets/youtubeBlack.png"
-                alt="Ícone do youtube">
+              <a
+                href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA"
+                target="_blank"
+              >
+                <img
+                  class="youtubeIcon bottomarg"
+                  src="~/assets/youtubeBlack.png"
+                  alt="Ícone do youtube"
+                />
               </a>
-              
             </div>
           </b-col>
         </b-row>
@@ -61,7 +68,7 @@
     </div>
 
     <div
-      style="background-color: rgb(40, 40, 40)"
+      style="background-color: rgb(30, 30, 30); color: white"
       class="d-flex justify-content-center"
     >
       Fatec - Taquaritinga {{ new Date().getFullYear() }}
@@ -70,12 +77,15 @@
 </template>
 
 <style lang="scss" scoped>
+
+a, p{
+  color: white;
+}
+
 .footer {
   background-color: #333;
   color: #fff;
   font-size: 18px;
-  margin-top: 50px;
-  padding-top: 10px;
 }
 
 .faceIcon {
@@ -86,25 +96,12 @@
   width: 30px;
   margin-left: 10px;
 }
-
-
-.mapaSite {
-  a {
-    color: white;
-  }
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
-}
-
 .col {
   display: flex;
   justify-content: center;
 }
 
-.bottomarg{
+.bottomarg {
   margin-bottom: 20px;
 }
 </style>

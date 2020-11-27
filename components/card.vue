@@ -1,50 +1,30 @@
 <template>
-  <div id="app" class="cardConfig">
-    <b-card-group>
-      <b-card
-        :header="titulo"
-        :alt="alt"
-        class="shadow-sm p-3 mb-5 bg-white rounded"
+  <b-card-group deck>
+    <b-card
+      bg-variant="info"
+      text-variant="white"
+      class="text-center shadow-sm rounded"
+      :header="titulo"
+      :alt="alt"
+    >
+      <b-card-text
+        >{{texto}}</b-card-text
       >
-        <b-card-text class="conteudoCard">{{ texto }}</b-card-text>
-      </b-card>
-    </b-card-group>
-  </div>
+    </b-card>
+  </b-card-group>
 </template>
 
 <script>
 export default {
   name: "card",
 
-  props: ["titulo", "alt", "texto",],
+  props: ["titulo", "alt", "texto"],
 
   data() {
     return {};
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-
-.card-header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: #3a3a3a;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  color: rgb(211, 211, 211);
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-}
-
-.cardConfig {
-  margin: 20px;
-}
-
-.card-img,
-.card-img-bottom {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
 </style>
