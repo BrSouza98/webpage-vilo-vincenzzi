@@ -2,7 +2,7 @@
 <template>
   <footer>
     <div>
-      <b-container fluid="lg" class="footer d-flex justify-content-lg-around justify-content-sm-center">
+      <b-container class="footer d-flex justify-content-lg-around justify-content-sm-center">
         <b-row cols="1" cols-lg="2" class="w-100">
           <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
             <div class="mapaSite">
