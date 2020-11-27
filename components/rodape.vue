@@ -4,7 +4,7 @@
     <div>
       <b-container fluid class="footer d-flex justify-content-center">
         <b-row cols="1" cols-lg="2" class="w-100 justify-content-center">
-          <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
+          <b-col class="d-flex flex-column justify-content-center py-5 px-3">
             <div class="mapaSite">
               <h3>Vilo Vincenzzi</h3>
               <p><a href="sobre">Sobre</a></p>
@@ -19,7 +19,7 @@
             </div>
           </b-col>
 
-          <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
+          <b-col class="d-flex flex-column justify-content-center py-5 px-3">
             <div>
               <h3>Contato</h3>
               <p class="margem">
@@ -77,8 +77,8 @@
 </template>
 
 <style lang="scss" scoped>
-
-a, p{
+a,
+p {
   color: white;
 }
 
@@ -90,6 +90,7 @@ a, p{
 
 .faceIcon {
   width: 30px;
+  margin-left: 10px;
 }
 
 .youtubeIcon {
@@ -106,15 +107,25 @@ a, p{
 }
 
 @media screen and (max-width: 720px) {
-  a, p{
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
+  a,
+  p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
 
-  h3{
+  h3 {
     font-size: 2.5em;
   }
 
+  .faceIcon {
+    width: 40px;
+    margin: 20px;
+  }
+
+  .youtubeIcon {
+    width: 40px;
+    margin: 20px;
+  }
 }
 </style>
