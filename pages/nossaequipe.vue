@@ -330,67 +330,74 @@ b-container {
 .fundoVerde {
   background-color: #019682;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoVerde:hover {
+.fundoVerde:hover,
+.fundoVerde:focus {
   background-color: #03473e;
   border-bottom: $borda;
-  transition: 1s;
+  
 }
 
 .fundoVermelho {
   background-color: #b81530;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoVermelho:hover {
+.fundoVermelho:hover,
+.fundoVermelho:focus{
   background-color: #810a1e;
   border-bottom: $borda;
-  transition: 1s;
 }
 
 .fundoAzul {
   background-color: #0c78aa;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoAzul:hover {
+.fundoAzul:hover,
+.fundoAzul:focus-within {
   background-color: #004768;
   border-bottom: $borda;
-  transition: 1s;
 }
 
 .fundoAmarelo {
   background-color: #797700;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoAmarelo:hover {
+.fundoAmarelo:hover,
+.fundoAmarelo:focus {
   background-color: #555400;
   border-bottom: $borda;
-  transition: 1s;
 }
 
 .fundoRosa {
   background-color: #961475;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoRosa:hover {
+.fundoRosa:hover,
+.fundoRosa:focus {
   background-color: #6b0050;
   border-bottom: $borda;
-  transition: 1s;
 }
 
 .fundoMarrom {
   background-color: #6e382b;
   border-bottom: $borda;
+  transition: background-color 1s;
 }
 
-.fundoMarrom:hover {
+.fundoMarrom:hover,
+.fundoMarrom:focus {
   background-color: #532419;
   border-bottom: $borda;
-  transition: 1s;
 }
 
 @media (max-width: 768px) {
