@@ -28,7 +28,7 @@
             <div class="px-3 py-2">
               <b-nav class="ml-auto">
                 <b-nav class="d-block">
-                  <b-nav-item href="../about/">About</b-nav-item>
+
                   <b-nav-item href="../sobre/">Sobre</b-nav-item>
                   <b-nav-item href="../metodologia/">Metodologia</b-nav-item>
                   <b-nav-item href="../nossaequipe/">Nossa equipe</b-nav-item>
@@ -48,7 +48,7 @@
           <div class="px-3 py-2">
             <b-nav class="ml-auto">
               <b-nav class="d-flex">
-                <b-nav-item href="../about/">About</b-nav-item>
+
                 <b-nav-item href="../sobre/">Sobre</b-nav-item>
                 <b-nav-item href="../metodologia/">Metodologia</b-nav-item>
                 <b-nav-item href="../nossaequipe/">Nossa equipe</b-nav-item>
