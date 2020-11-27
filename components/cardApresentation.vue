@@ -19,8 +19,7 @@
             texto="Nosso maternal atende crianças de 2 a 3 anos de idade. 
             Contamos com 2 maternais um para cada ano de vida da criança, que são divididos por períodos 
             conforme a idade. Trabalhamos com músicas, cantigas de roda e dança para estimular o 
-            desenvolvimento integral dos alunos. Contamos histórias infantis, 
-            desenvolvemos atividades lúdicas e trabalhamos com o corpo através de estímulos constantes.
+            desenvolvimento integral dos alunos. Desenvolvemos atividades lúdicas e trabalhamos com o corpo através de estímulos constantes.
             Nossas propostas estão todas de acordo com a nova Base Nacional Comum Curricular."
           ></card>
         </b-col>
