@@ -1,8 +1,10 @@
 <template>
-    <b-container fluid class="updown">
-      <b-row  col sm="12" md="4" sg="4">
+    <b-container fluid id="my-container" class="h-75">
+      <b-row  cols="1" cols-md="2" cols-lg="3" class="justify-content-center">
         <b-col>
           <card
+            id="my-card"
+            class="my-4"
             titulo="Berçário"
             alt="card de apresentacao"
             texto="Berçário é até qual idade? O berçário da escola Vilo Vicenzzi atende crianças 
@@ -14,6 +16,8 @@
 
         <b-col>
           <card
+            id="my-card"
+            class="my-4"
             titulo="Maternal"
             alt="card de apresentacao"
             texto="Nosso maternal atende crianças de 2 a 3 anos de idade. 
@@ -26,6 +30,8 @@
 
         <b-col>
           <card
+            id="my-card"
+            class="my-4"
             titulo="Jardim de infância"
             alt="card de apresentacao"
             texto="O jardim de infância de nossa escola atende crianças a partir dos 4 anos de idade
@@ -44,7 +50,3 @@ export default {
     name: "cardApresentation",
 }
 </script>
-
-<style>
-
-</style>

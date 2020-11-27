@@ -7,9 +7,7 @@
       :header="titulo"
       :alt="alt"
     >
-      <b-card-text
-        >{{texto}}</b-card-text
-      >
+      <b-card-text>{{ texto }}</b-card-text>
     </b-card>
   </b-card-group>
 </template>
@@ -27,4 +25,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card-header {
+  background-color: rgba(0, 0, 0, 0.363);
+  font-weight: bolder;
+}
+
+.card-deck .card {
+  min-height: 350px;
+}
 </style>

@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style>
-html {
+html,body {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -73,6 +73,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: rgba(184, 184, 184, 0.041);
 }
 
 *,

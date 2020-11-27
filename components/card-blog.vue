@@ -1,13 +1,12 @@
 <template>
-  <div class="espacoclasse">
+  <div>
     <b-card
       :title="titulo"
       img-src="~/assets/emebfoto.png"
       img-alt="ImagemAlt"
       img-top
       tag="article"
-      style="max-width: 20rem"
-      class="mb-2"
+      class="my-2 w-100"
     >
       <b-card-text>
         {{texto}}
@@ -26,14 +25,5 @@ export default {
 </script>
 
 <style>
-.corpreta {
-  color: black;
-}
 
-.espacobotao {
-  margin-bottom: 20px;
-}
-.espacoclasse {
-  margin-top: 40px;
-}
 </style>

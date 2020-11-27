@@ -2,11 +2,11 @@
 <template>
   <footer>
     <div>
-      <b-container class="footer d-flex justify-content-lg-around justify-content-sm-center">
-        <b-row cols="1" cols-lg="2" class="w-100">
+      <b-container fluid class="footer d-flex justify-content-center">
+        <b-row cols="1" cols-lg="2" class="w-100 justify-content-center">
           <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
             <div class="mapaSite">
-              <h2>Vilo Vincenzzi</h2>
+              <h3>Vilo Vincenzzi</h3>
               <p><a href="sobre">Sobre</a></p>
               <p><a href="metodologia">Metodologia</a></p>
               <p><a href="nossaequipe">Nossa equipe</a></p>
@@ -21,7 +21,7 @@
 
           <b-col class=" d-flex flex-column justify-content-center py-5 px-3">
             <div>
-              <h3>Informações de contato</h3>
+              <h3>Contato</h3>
               <p class="margem">
                 <b-icon icon="house" />
                 Av Cap. José Camargo Lima, 341, Jardim São Sebastião
@@ -103,5 +103,18 @@ a, p{
 
 .bottomarg {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  a, p{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+  h3{
+    font-size: 2.5em;
+  }
+
 }
 </style>
