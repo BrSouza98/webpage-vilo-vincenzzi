@@ -62,10 +62,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
+@import "@/assets/css/_variaveis.scss";
+
 html,body {
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: $font-padrao;
   font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

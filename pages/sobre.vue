@@ -3,15 +3,18 @@
     <div>
       <img src="~/assets/sobrenos.png" alt="" class="bannersConteudo" />
     </div>
-    <div class="cor margemupdown">
-      <h2 class="textocentro margemupdown">
-        <b
-          >Somos uma escola de Educação Infantil da rede municipal de
-          Taquaritinga</b
-        >
-      </h2>
-      <b-container fluid class="bv-example-row">
-        <div>
+    <div>
+      <b-container fluid id="titulo">
+        <h2 class="textocentro">
+          <b
+            >Somos uma escola de Educação Infantil da rede municipal de
+            Taquaritinga</b
+          >
+        </h2>
+      </b-container>
+
+      <b-container fluid>
+        <div id="nossa-escola">
           <p></p>
           <h2 class="textocentro margemupdown">
             <b>Nossa Escola</b>
@@ -30,16 +33,25 @@
           <h2 class="textocentro margemupdown">
             <b>Turmas</b>
           </h2>
-          <p>Educação infantil - Creche</p>
-          <p>Aulas no período da Manhã</p>
-          <p>Números de turmas 3 / Média de alunos por turma: 15</p>
-          <p>Educação infantil - Pré-escola</p>
-          <p>Aulas no período da Manhã</p>
-          <p>Número de turmas 2 / Média de alunos por turma: 25</p>
+          <b-row  cols="1" cols-lg="2">
+            <b-col class="my-3">
+              <li>Educação infantil - Creche</li>
+              <li>Aulas no período da Manhã</li>
+              <li>Números de turmas 3</li>
+              <li>Média de alunos por turma: 15</li>
+            </b-col>
+
+            <b-col class="my-3">
+              <li>Educação infantil - Pré-escola</li>
+              <li>Aulas no período da Manhã</li>
+              <li>Número de turmas 2</li>
+              <li>Média de alunos por turma: 25</li>
+            </b-col>
+          </b-row>
         </div>
 
         <div>
-          <h2 class="textocentro margemupdown">
+          <h2 class="textocentro">
             <b>Infraestrutura</b>
           </h2>
 
@@ -417,10 +429,30 @@ export default {
 export default {};
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+@import "@/assets/css/_variaveis.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+#titulo {
+  background-color: $preto;
+  color: $cor-primaria;
+  padding: 40px;
+}
+
+#nossa-escola {
+  background-color: $cor-primaria;
+  color: $cor-secundaria;
+  padding: 45px;
+  text-align: center;
+}
+
 .texto {
   text-align: right;
-  color: red;
 }
 
 .textocentro {
