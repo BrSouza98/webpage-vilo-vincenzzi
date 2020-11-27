@@ -98,7 +98,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto1.jpg"
             target="_blank"
-            >Refeitorio</a
+            >Refeitório</a
           >
         </b-card-text>
       </b-card>
@@ -117,7 +117,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto2.jpg"
             target="_blank"
-            >Refeitorio</a
+            >Refeitório</a
           >
         </b-card-text>
       </b-card>
@@ -214,7 +214,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto7.jpg"
             target="_blank"
-            >Sala do berçario</a
+            >Sala do berçário</a
           >
         </b-card-text>
       </b-card>
@@ -233,7 +233,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto8.jpg"
             target="_blank"
-            >Sala do berçario</a
+            >Sala do berçário</a
           >
         </b-card-text>
       </b-card>
@@ -253,7 +253,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto9.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Banheiro do berçário</a
           >
         </b-card-text>
       </b-card>
@@ -272,7 +272,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto10.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Banheiro do berçário</a
           >
         </b-card-text>
       </b-card>
@@ -291,7 +291,7 @@
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto11.jpg"
             target="_blank"
-            >Banheiro do berçario</a
+            >Banheiro do berçário</a
           >
         </b-card-text>
       </b-card>
