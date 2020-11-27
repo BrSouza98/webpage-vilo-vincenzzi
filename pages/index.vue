@@ -2,7 +2,7 @@
   <div class="corpadrao1">
     <gif class="p-0 m-0" />
     <!-- Inicio apresentacao -->
-    <img src="~/assets/png1.png" alt="" class="bannersConteudo" />
+    <img src="~/assets/png1.png" alt="" class="bannersConteudo1" />
 
     <cardApresentation />
 
@@ -77,7 +77,15 @@ export default {
   width: 100%;
   padding: 0;
   margin: 0;
-  height: 360px;
+  height: 350px;
 }
+
+.bannersConteudo1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
 
 </style>
