@@ -5,14 +5,14 @@
     <div class="">
       <b-container fluid class="configuraçãoPadrao">
         <b-row>
-          <b-col class="cor margemupdown1">
+          <b-col class="cor">
             <h2>Educação Infantil Grupo 2 (2 anos) e Grupo 3 (3 anos)</h2>
           </b-col>
         </b-row>
       </b-container>
 
       <b-container fluid class="bv-example-row">
-        <b-row cols="1" cols-lg="2">
+        <b-row class="margemupdown1" cols="1" cols-lg="2">
           <b-col>
             <p>
               <b>Matemática:</b> contagem, noção de quantidade, formas
@@ -32,7 +32,7 @@
               Brasil e no mundo.
             </p>
             <ul>
-              <li class="margemupdown1">
+              <li class="">
                 Apostilas de tamanho e formato generosos (A3), com uma atividade
                 por página, imagens grandes e ilustrações de traçados grossos.
               </li>
@@ -49,10 +49,10 @@
 
           <b-col>
             <div
-              class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
+              class="d-flex flex-wrap align-items-center justify-content-center"
             >
               <img
-                class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+                class="card-colaborador shadow-lg  bg-white rounded imgtamanho"
                 src="~/assets/positivo1.jpg"
                 alt="Livros usados para a educação das crianças e a caixa onde eles se encontram em cima de uma mesa"
               /></div
@@ -62,7 +62,7 @@
     </div>
 
     <b-container fluid class="bv-example-row">
-      <b-row cols="1" cols-lg="2">
+      <b-row class="margemupdown1" cols="1" cols-lg="2">
         <b-col
           ><h2>Grupo 2 - Maternal I e Grupo 3 - Maternal II</h2>
           <p>
@@ -77,10 +77,10 @@
         >
         <b-col
           ><div
-            class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
+            class="d-flex flex-wrap align-items-center justify-content-center"
           >
             <img
-              class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+              class="card-colaborador shadow-lg bg-white rounded imgtamanho"
               src="~/assets/positivo2.jpg"
               alt="Circulo com 4 adendos
                 dentro do circulo esta escrito: Multiplas linguagens-Os professores trabalham as habilidades do aluno por meio de experiencias, para que a criança desenvolva múltiplas linguagens.
@@ -95,7 +95,7 @@
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row cols="1" cols-lg="2">
+      <b-row class="margemupdown1" cols="1" cols-lg="2">
         <b-col>
           <h2>Educação Infantil Grupo 4 (4 anos) e Grupo 5 (5 anos)</h2>
           <ul>
@@ -133,17 +133,17 @@
         >
 
         <b-col>
-          <img
-            class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+<div>          <img
+            class="card-colaborador shadow-lg bg-white rounded imgtamanho"
             src="~/assets/positivo12.png"
             alt="Os diversos livros usados na educação das crianças"
-          />
+          /></div>
         </b-col>
       </b-row>
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row cols="1" cols-lg="2">
+      <b-row class="margemupdown1" cols="1" cols-lg="2">
         <b-col>
           <h2>Grupo 4 - Jardim I e Grupo 5 - Jardim II</h2>
           <p>PLANO DE ENSINO JARDIM 1 – 3 a 4 anos:</p>
@@ -205,7 +205,7 @@
             class="d-flex flex-wrap align-items-center justify-content-center"
           >
             <img
-              class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+              class=" card-colaborador shadow-lg bg-white rounded imgtamanho"
               src="~/assets/positivo100.jpg"
               alt=""
             /></div
@@ -214,10 +214,10 @@
     </b-container>
 
     <b-container fluid class="bv-example-row">
-      <b-row cols="1" cols-lg="2">
+      <b-row class="margemupdown1" cols="1" cols-lg="2">
         <b-col>
-          <h2 class="margemupdown1">Educação Infantil I e II - 2 e 3 anos</h2>
-          <h2 class="margemupdown1">Apostilas Positivo</h2>
+          <h2>Educação Infantil I e II - 2 e 3 anos</h2>
+          <h2>Apostilas Positivo</h2>
           <p>
             As apostilas para este segmento são entregues em 8 distribuições e
             possuem formato diferenciado, apropriado às fases iniciais da
@@ -232,10 +232,10 @@
 
         <b-col
           ><div
-            class="d-flex flex-wrap align-items-center justify-content-center margemupdown1"
+            class="d-flex flex-wrap align-items-center justify-content-center"
           >
             <img
-              class="mt-3 card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
+              class="card-colaborador shadow-lg p-3 mb-5 bg-white rounded imgtamanho"
               src="~/assets/positivo3.jpg"
               alt="Os eixos cognitvos
                 Arte, atitudes, cuidados pessoais, datas comemorativas, descobertas, independencia e autonomia, inglês, interação, jogos e desafios, leituras extraordinarias, linguagem e letramento, matemática, movimento, música, natureza e liberdade, oralidade, raciocinio lógico e socialização
@@ -270,8 +270,8 @@ img {
 }
 
 .margemupdown1 {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .bannersConteudo {
