@@ -143,8 +143,9 @@
               </svg>
               vilovicenzzi@gmail.com
             </p>
-            <iframe
-              class="margem"
+<div>
+              <iframe
+              class="margem maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.130333909059!2d-48.49759028679131!3d-21.38477219129913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b939221cc723df%3A0xe809cd4ed3abc464!2sAv.%20Cap.%20Jos%C3%A9%20Camargo%20de%20Lima%2C%20431%20-%20Vila%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Taquaritinga%20-%20SP%2C%2015900-000!5e0!3m2!1spt-BR!2sbr!4v1604199025720!5m2!1spt-BR!2sbr"
               width="600"
               height="450"
@@ -154,6 +155,7 @@
               aria-hidden="false"
               tabindex="0"
             ></iframe>
+</div>
           </div>
         </div>
       </div>
@@ -233,5 +235,8 @@ export default {
 }
 .margem {
   margin-top: 20px;
+}
+.maps{
+  width: 100%;
 }
 </style>
