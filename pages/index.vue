@@ -4,7 +4,7 @@
     <!-- Inicio apresentacao -->
     <img src="~/assets/png1.png" alt="" class="bannersConteudo1" />
 
-    <cardApresentation />
+    <cardApresentation id="card-apresentacao" />
 
     <!-- Fim apresentação -->
 
@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style scoped>
+#card-apresentacao{
+  padding: 100px;
+}
+
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;

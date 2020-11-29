@@ -1,10 +1,10 @@
 <template>
-  <b-container fluid>
+  <b-container>
     <b-row
       cols="1"
       cols-md="2"
       cols-lg="3"
-      class="d-flex justify-content-around"
+      class="d-flex justify-content-between"
     >
       <b-col>
         <card-blog

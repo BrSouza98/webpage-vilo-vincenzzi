@@ -1,9 +1,10 @@
 <template>
-    <b-container fluid id="my-container" class="h-75">
-      <b-row  cols="1" cols-md="2" cols-lg="3" class="justify-content-center">
+    <b-container fluid id="my-container">
+      <b-row  cols="1" cols-md="2" cols-lg="3">
         <b-col>
           <card
             id="my-card"
+            imagem="Bed512px"
             class="my-4"
             titulo="Berçário"
             alt="card de apresentacao"
@@ -17,6 +18,7 @@
         <b-col>
           <card
             id="my-card"
+            imagem="Kids_Block512px"
             class="my-4"
             titulo="Maternal"
             alt="card de apresentacao"
@@ -31,6 +33,7 @@
         <b-col>
           <card
             id="my-card"
+            imagem="Books512px"
             class="my-4"
             titulo="Jardim de infância"
             alt="card de apresentacao"

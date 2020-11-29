@@ -13,10 +13,9 @@
         </h2>
       </b-container>
 
-      <b-container fluid>
-        <div id="nossa-escola">
-          <p></p>
-          <h2 class="textocentro margemupdown">
+      <b-container fluid class="d-flex flex-column juscontent-center">
+        <b-container fluid id="nossa-escola">
+          <h2 class="textocentro">
             <b>Nossa Escola</b>
           </h2>
           <p>
@@ -27,28 +26,32 @@
             Contamos com uma equipe que ama o que faz, fazendo tudo com muito
             amor e carinho por nossos alunos..
           </p>
-        </div>
-        <div>
-          <p></p>
-          <h2 class="textocentro margemupdown">
+        </b-container>
+
+        <b-container
+          fluid
+          class="d-flex flex-column justify-content-sm-center"
+          id="turmas"
+        >
+          <h2 class="">
             <b>Turmas</b>
           </h2>
-          <b-row  cols="1" cols-lg="2">
-            <b-col class="my-3">
-              <li>Educação infantil - Creche</li>
-              <li>Aulas no período da Manhã</li>
-              <li>Números de turmas 3</li>
-              <li>Média de alunos por turma: 15</li>
+          <b-row cols="1" cols-lg="2" class="d-flex py-5 flex-lg-nowrap">
+            <b-col class="bordaArredondada my-3 mx-2 justify-content-md-start">
+              <p>Educação infantil - Creche</p>
+              <p>Aulas no período da Manhã</p>
+              <p>Números de turmas 3</p>
+              <p>Média de alunos por turma: 15</p>
             </b-col>
 
-            <b-col class="my-3">
-              <li>Educação infantil - Pré-escola</li>
-              <li>Aulas no período da Manhã</li>
-              <li>Número de turmas 2</li>
-              <li>Média de alunos por turma: 25</li>
+            <b-col class="bordaArredondada my-3 mx-2">
+              <p>Educação infantil - Pré-escola</p>
+              <p>Aulas no período da Manhã</p>
+              <p>Número de turmas 2</p>
+              <p>Média de alunos por turma: 25</p>
             </b-col>
           </b-row>
-        </div>
+        </b-container>
 
         <div>
           <h2 class="textocentro">
@@ -56,35 +59,44 @@
           </h2>
 
           <b-container fluid class="bv-example-row justify-content-evenly">
-            <b-row>
-              <b-col>
-                <p>• Alimentação escolar para os alunos.</p>
-                <p>• Água filtrada.</p>
-                <p>• Água da rede pública.</p>
-                <p>• Energia da rede pública.</p>
-                <p>• Sala de secretaria.</p>
-                <p>• Almoxarifado.</p>
+            <b-row cols="1" class="mx-2">
+              <b-col class="bordaArredondada">
+                <p>Alimentação escolar para os alunos.</p>
+                <p>Água filtrada.</p>
+                <p>Água da rede pública.</p>
               </b-col>
 
               <b-col>
-                <p>• Esgoto da rede pública.</p>
-                <p>• Lixo destinado à coleta periódica;</p>
-                <p>• Acesso à Internet.</p>
-                <p>• Banda larga.</p>
+                <p>Energia da rede pública.</p>
+                <p>Sala de secretaria.</p>
+                <p>Almoxarifado.</p>
+              </b-col>
+
+              <b-col>
+                <p>Esgoto da rede pública.</p>
+                <p>Lixo destinado à coleta periódica;</p>
+                <p>Acesso à Internet.</p>
+              </b-col>
+
+              <b-col>
+                <p>Banda larga.</p>
                 <p>
-                  • Banheiro adequado à alunos com deficiência ou mobilidade
+                  Banheiro adequado à alunos com deficiência ou mobilidade
                   reduzida.
                 </p>
-                <p>• Despensa.</p>
+                <p>Despensa.</p>
               </b-col>
 
               <b-col>
-                <p>• 7 salas de aulas.</p>
-                <p>• Sala de diretoria.</p>
-                <p>• Sala de professores.</p>
-                <p>• Cozinha.</p>
-                <p>• Banheiro adequado à educação infantil.</p>
-                <p>• Refeitório.</p>
+                <p>•7 salas de aulas.</p>
+                <p>•Sala de diretoria.</p>
+                <p>•Sala de professores.</p>
+              </b-col>
+
+              <b-col>
+                <p>•Cozinha.</p>
+                <p>•Banheiro adequado à educação infantil.</p>
+                <p>•Refeitório.</p>
               </b-col>
             </b-row>
           </b-container>
@@ -98,7 +110,7 @@
     <div class="card-header1 corpadrao1">
       <b-card
         title=""
-        img-src="~/assets/foto1.jpg"
+        img-src="@/assets/foto1.jpg"
         img-alt="Refeitorio com duas meses e uma cadeirinha"
         img-top
         tag="article"
@@ -433,13 +445,23 @@ export default {};
 
 @import "@/assets/css/_variaveis.scss";
 
+h2 {
+  padding: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+
+p{
+  font-size: 25px;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-size: 30px;
 }
+
 #titulo {
-  background-color: $preto;
+  background-color: rgb(64, 145, 123);
   color: $cor-primaria;
   padding: 40px;
 }
@@ -449,6 +471,21 @@ export default {};
   color: $cor-secundaria;
   padding: 45px;
   text-align: center;
+}
+
+#turmas {
+  background-color: rgb(77, 190, 96);
+  color: $cor-primaria;
+
+  padding: 45px;
+  text-align: center;
+}
+
+.bordaArredondada {
+  border: solid rgba(240, 240, 240, 0.26) 0.5px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.075);
+  padding: 20px;
 }
 
 .texto {
@@ -490,4 +527,12 @@ export default {};
   margin: 0;
   max-height: 650px;
 }
+</style>
+
+<style lang="scss" scoped>
+ @media screen and (max-width: 600px) {
+   p{
+     font-size: 20px;
+   }
+ }
 </style>
