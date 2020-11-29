@@ -1,5 +1,5 @@
 <template>
-  <div id="card">
+  <div id="card" class="shadow">
     <b-container id="my-card">
       <div class="w-100 d-flex justify-content-center">
         <img :src="require(`~/assets/ui/${imagem}.png`)" alt="" />
@@ -42,7 +42,7 @@ p {
 
 #my-card {
   border: 1.5px solid $preto-opaco;
-  border-radius: 10px;
+  border-radius: 15px;
   height: 600px;
 }
 </style>
