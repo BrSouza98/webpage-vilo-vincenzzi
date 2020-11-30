@@ -64,7 +64,7 @@
               >
                 <p>Educação infantil - Creche</p>
                 <p>Aulas no período da Manhã</p>
-                <p>Números de turmas 3</p>
+                <p>Número de turmas 3</p>
                 <p>Média de alunos por turma: 15</p>
               </b-col>
 
