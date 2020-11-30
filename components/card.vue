@@ -24,6 +24,10 @@ export default {
 $preto-opaco: rgba(0, 0, 0, 0.363);
 $azul: #3ea4bf;
 
+*{
+  box-sizing: border-box;
+}
+
 img {
   max-height: 300px;
 }
@@ -38,11 +42,13 @@ h3 {
 
 p {
   font-size: 17px;
+  padding: 15px;
 }
 
 #my-card {
-  border: 1.5px solid $preto-opaco;
+  border: 1px solid rgba(9, 90, 196, 0.288);
   border-radius: 15px;
-  height: 600px;
+  min-height: 600px;
 }
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <header class="">
       <b-navbar
         align-h="between"
         class="w-100 d-flex justify-content-between Cor-navbar"
@@ -67,7 +67,7 @@
           </div>
         </div>
       </b-navbar>
-    </div>
+    </header>
   </div>
 </template>
 
@@ -78,14 +78,19 @@ import { BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);
 
-export default {};
+export default {
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/css/_variaveis.scss";
 //regras do menu e interações
-$cor-primaria: rgb(240, 240, 240);
-$cor-secundaria: rgb(70, 70, 70);
-$preto: rgb(29, 29, 29);
+header {
+  background-color: $cor-primaria;
+}
 
 #paginaInicial {
   a {
@@ -182,5 +187,19 @@ $preto: rgb(29, 29, 29);
       }
     }
   }
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 </style>

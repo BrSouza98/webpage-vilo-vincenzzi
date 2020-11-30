@@ -1,11 +1,11 @@
 
 <template>
   <footer>
-    <div>
-      <b-container fluid class="footer d-flex justify-content-center">
+    <div class="footer">
+      <b-container fluid="lg" class=" d-flex justify-content-center">
         <b-row cols="1" cols-lg="2" class="w-100 justify-content-center">
           <b-col class="d-flex flex-column justify-content-center py-5 px-3">
-            <div class="mapaSite">
+            <div class="d-flex justify-content-center flex-column">
               <h3>Vilo Vincenzzi</h3>
               <p><a href="sobre">Sobre</a></p>
               <p><a href="metodologia">Metodologia</a></p>
@@ -20,7 +20,7 @@
           </b-col>
 
           <b-col class="d-flex flex-column justify-content-center py-5 px-3">
-            <div>
+            <div class="d-flex justify-content-center flex-column">
               <h3>Contato</h3>
               <p class="margem">
                 <b-icon icon="house" />
@@ -41,26 +41,28 @@
                 <b-icon icon="mailbox" />
                 vilovicenzzi@gmail.com
               </p>
-              <a
-                href="https://www.facebook.com/profile.php?id=100009453482303"
-                target="_blank"
-              >
-                <img
-                  class="faceIcon bottomarg"
-                  src="~/assets/faceWhite.png"
-                  alt="Ícone do Facebook"
-                />
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA"
-                target="_blank"
-              >
-                <img
-                  class="youtubeIcon bottomarg"
-                  src="~/assets/youtubeBlack.png"
-                  alt="Ícone do youtube"
-                />
-              </a>
+              <div>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009453482303"
+                  target="_blank"
+                >
+                  <img
+                    class="faceIcon bottomarg"
+                    src="~/assets/faceWhite.png"
+                    alt="Ícone do Facebook"
+                  />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCu9JyneukfRcBSCuiJHQ3LA"
+                  target="_blank"
+                >
+                  <img
+                    class="youtubeIcon bottomarg"
+                    src="~/assets/youtubeBlack.png"
+                    alt="Ícone do youtube"
+                  />
+                </a>
+              </div>
             </div>
           </b-col>
         </b-row>

@@ -9,7 +9,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'Escola, educação infantil, Taquaritinga, creche'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
