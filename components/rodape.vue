@@ -90,7 +90,6 @@ p {
 
 .faceIcon {
   width: 30px;
-  margin-left: 10px;
 }
 
 .youtubeIcon {
