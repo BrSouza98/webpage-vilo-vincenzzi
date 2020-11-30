@@ -2,11 +2,11 @@
   <div>
     <b-card
       :title="titulo"
-      img-src="~/assets/emebfoto.png"
+      :img-src="require(`@/assets/${imagem}.png`)"
       img-alt="ImagemAlt"
       img-top
       tag="article"
-      class="my-2 w-100"
+      class="my-2"
     >
       <b-card-text>
         {{texto}}
@@ -24,6 +24,8 @@ export default {
 };
 </script>
 
-<style>
-
+<style scoped>
+  img{
+    max-height: 200px;
+  }
 </style>
