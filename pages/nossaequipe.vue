@@ -2,7 +2,6 @@
   <div class="configuracoes-globais">
     <div>
       <img src="~/assets/nossaequipe.png" alt="" class="bannersConteudo" />
-
       <b-container fluid class="Apresentacao fundopadrao">
         <b-row>
           <b-col>
@@ -69,7 +68,7 @@
                 alt="Foto da coordenadora Daniela"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
-                Daniela - Coordenadora
+                Daniela - Coord. pedagoga
               </h3>
             </div>
           </b-col>
