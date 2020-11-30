@@ -14,23 +14,35 @@
       </b-container>
 
       <b-container fluid class="d-flex flex-column juscontent-center">
-        <b-container fluid id="nossa-escola">
-          <h2 class="textocentro">
-            <b>Nossa Escola</b>
-          </h2>
-          <p>
-            A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi
-            criada em 20 de março de 2015.
-          </p>
-          <p>
-            Contamos com uma equipe que ama o que faz, fazendo tudo com muito
-            amor e carinho por nossos alunos..
-          </p>
+        <b-container
+          fluid
+          id="nossa-escola"
+          class="d-flex justify-content-around"
+        >
+          <b-row cols="1" cols-lg="2">
+            <b-col class="d-flex justify-content-center">
+              <img src="@/assets/ui/School512px.png" alt="" />
+            </b-col>
+
+            <b-col class="my-5 w-50 text-justify">
+              <h2>
+                <b>Nossa Escola</b>
+              </h2>
+              <p>
+                A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi
+                foi criada em 20 de março de 2015.
+              </p>
+              <p>
+                Contamos com uma equipe que ama o que faz, fazendo tudo com
+                muito amor e carinho por nossos alunos..
+              </p>
+            </b-col>
+          </b-row>
         </b-container>
 
         <b-container
           fluid
-          class="d-flex flex-column justify-content-sm-center"
+          class="d-flex flex-column justify-content-center"
           id="turmas"
         >
           <h2 class="">
@@ -59,7 +71,7 @@
           </h2>
 
           <b-container fluid class="bv-example-row justify-content-evenly">
-            <b-row cols="1" class="mx-2">
+            <b-row cols="1" cols-lg="2" class="mx-2">
               <b-col class="bordaArredondada">
                 <p>Alimentação escolar para os alunos.</p>
                 <p>Água filtrada.</p>
@@ -117,7 +129,7 @@
         style="max-width: 20rem"
         class="mb-2 align"
       >
-        <b-card-text>
+        <b-card-text class="text-center">
           <a
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto1.jpg"
@@ -136,7 +148,7 @@
         style="max-width: 20rem"
         class="mb-2 align"
       >
-        <b-card-text>
+        <b-card-text class="text-center">
           <a
             class="corpreta"
             href="http://localhost:3000/_nuxt/assets/foto2.jpg"
@@ -442,22 +454,23 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-
 @import "@/assets/css/_variaveis.scss";
 
 h2 {
   padding: 10px;
   margin: 10px;
   font-size: 40px;
+  text-align: center;
 }
 
-p{
+p {
   font-size: 25px;
 }
 
 * {
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 #titulo {
@@ -474,7 +487,7 @@ p{
 }
 
 #turmas {
-  background-color: rgb(77, 190, 96);
+  background-color: rgb(77, 139, 190);
   color: $cor-primaria;
 
   padding: 45px;
@@ -527,12 +540,18 @@ p{
   margin: 0;
   max-height: 650px;
 }
+
+.corpadrao1 {
+  p {
+    text-align: center;
+  }
+}
 </style>
 
 <style lang="scss" scoped>
- @media screen and (max-width: 600px) {
-   p{
-     font-size: 20px;
-   }
- }
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+}
 </style>

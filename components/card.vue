@@ -48,10 +48,10 @@ p {
 #my-card {
   border: 1px solid rgba(9, 90, 196, 0.288);
   border-radius: 15px;
-  min-height: 600px;
+  min-height: 650px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 400px) {
   img {
     max-height: 150px;
   }
