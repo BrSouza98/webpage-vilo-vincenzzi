@@ -92,7 +92,6 @@ p {
 
 .faceIcon {
   width: 30px;
-  margin-left: 10px;
 }
 
 .youtubeIcon {
@@ -121,13 +120,12 @@ p {
   }
 
   .faceIcon {
-    width: 40px;
-    margin: 20px;
+    width: 25px;
   }
 
   .youtubeIcon {
-    width: 40px;
-    margin: 20px;
+    width: 25px;
+    margin-left: 10px;
   }
 }
 </style>
