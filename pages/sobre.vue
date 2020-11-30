@@ -13,74 +13,87 @@
         </h2>
       </b-container>
 
-      <b-container fluid class="d-flex flex-column juscontent-center">
+      <b-container
+        fluid
+        id="nossa-escola"
+        class="d-flex justify-content-around"
+      >
+        <b-row cols="1" cols-lg="2">
+          <b-col class="d-flex justify-content-center">
+            <img src="@/assets/ui/School512px.png" alt="" />
+          </b-col>
+
+          <b-col class="my-5 w-50 text-justify">
+            <h2>
+              <b>Nossa Escola</b>
+            </h2>
+            <p>
+              A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi foi
+              criada em 20 de março de 2015.
+            </p>
+            <p>
+              Contamos com uma equipe que ama o que faz, fazendo tudo com muito
+              amor e carinho por nossos alunos..
+            </p>
+          </b-col>
+        </b-row>
+      </b-container>
+
+      <b-container
+        id="turmas-container"
+        fluid
+        class="d-flex flex-column juscontent-center"
+      >
         <b-container
           fluid
-          id="nossa-escola"
-          class="d-flex justify-content-around"
-        >
-          <b-row cols="1" cols-lg="2">
-            <b-col class="d-flex justify-content-center">
-              <img src="@/assets/ui/School512px.png" alt="" />
-            </b-col>
-
-            <b-col class="my-5 w-50 text-justify">
-              <h2>
-                <b>Nossa Escola</b>
-              </h2>
-              <p>
-                A Escola Municipal de Educação Básica Engenheiro Vilo Vicenzzi
-                foi criada em 20 de março de 2015.
-              </p>
-              <p>
-                Contamos com uma equipe que ama o que faz, fazendo tudo com
-                muito amor e carinho por nossos alunos..
-              </p>
-            </b-col>
-          </b-row>
-        </b-container>
-
-        <b-container
-          fluid
-          class="d-flex flex-column justify-content-center"
           id="turmas"
+          class="d-flex flex-column justify-content-center align-items-center"
         >
           <h2 class="">
             <b>Turmas</b>
           </h2>
-          <b-row cols="1" cols-lg="2" class="d-flex py-5 flex-lg-nowrap">
-            <b-col class="bordaArredondada my-3 mx-2 justify-content-md-start">
-              <p>Educação infantil - Creche</p>
-              <p>Aulas no período da Manhã</p>
-              <p>Números de turmas 3</p>
-              <p>Média de alunos por turma: 15</p>
-            </b-col>
+          <b-container class="d-flex justify-content-center">
+            <b-row
+              cols="1"
+              cols-lg="2"
+              class="d-flex justify-content-center py-5 flex-lg-nowrap"
+            >
+              <b-col
+                class="bordaArredondada my-3 mx-5 justify-content-md-start"
+                order-lg="1"
+              >
+                <p>Educação infantil - Creche</p>
+                <p>Aulas no período da Manhã</p>
+                <p>Números de turmas 3</p>
+                <p>Média de alunos por turma: 15</p>
+              </b-col>
 
-            <b-col class="bordaArredondada my-3 mx-2">
-              <p>Educação infantil - Pré-escola</p>
-              <p>Aulas no período da Manhã</p>
-              <p>Número de turmas 2</p>
-              <p>Média de alunos por turma: 25</p>
-            </b-col>
-          </b-row>
+              <b-col class="bordaArredondada my-3 mx-5">
+                <p>Educação infantil - Pré-escola</p>
+                <p>Aulas no período da Manhã</p>
+                <p>Número de turmas 2</p>
+                <p>Média de alunos por turma: 25</p>
+              </b-col>
+            </b-row>
+          </b-container>
         </b-container>
 
-        <div>
+        <b-container fluid id="infraestrutura-container">
           <h2 class="textocentro">
             <b>Infraestrutura</b>
           </h2>
 
-          <b-container fluid class="bv-example-row justify-content-evenly">
-            <b-row cols="1" cols-lg="2" class="mx-2">
-              <b-col class="bordaArredondada">
+          <b-container fluid>
+            <b-row id="infraestrutura" cols="1" cols-lg="3" class="mx-2">
+              <b-col class="text-justify">
                 <p>Alimentação escolar para os alunos.</p>
                 <p>Água filtrada.</p>
                 <p>Água da rede pública.</p>
               </b-col>
 
-              <b-col>
-                <p>Energia da rede pública.</p>
+              <b-col order-lg="2" order-md="1">
                 <p>Sala de secretaria.</p>
+                <p>Energia da rede pública.</p>
                 <p>Almoxarifado.</p>
               </b-col>
 
@@ -100,19 +113,19 @@
               </b-col>
 
               <b-col>
-                <p>•7 salas de aulas.</p>
-                <p>•Sala de diretoria.</p>
-                <p>•Sala de professores.</p>
+                <p>7 salas de aulas.</p>
+                <p>Sala de diretoria.</p>
+                <p>Sala de professores.</p>
               </b-col>
 
               <b-col>
-                <p>•Cozinha.</p>
-                <p>•Banheiro adequado à educação infantil.</p>
-                <p>•Refeitório.</p>
+                <p>Cozinha.</p>
+                <p>Banheiro adequado à educação infantil.</p>
+                <p>Refeitório.</p>
               </b-col>
             </b-row>
           </b-container>
-        </div>
+        </b-container>
       </b-container>
     </div>
     <div class="textocentro margemupdown">
@@ -494,11 +507,22 @@ p {
   text-align: center;
 }
 
+#infraestrutura-container {
+  background-color: rgb(255, 255, 205);
+  color: rgb(52, 3, 145);
+  #infraestrutura {
+    div {
+      @extend .bordaArredondada;
+    }
+  }
+}
+
 .bordaArredondada {
   border: solid rgba(240, 240, 240, 0.26) 0.5px;
   border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: rgba(0, 0, 0, 0.050);
   padding: 20px;
+  width: 100%;
 }
 
 .texto {
