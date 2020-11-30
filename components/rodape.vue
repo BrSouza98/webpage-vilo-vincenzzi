@@ -111,8 +111,6 @@ p {
   a,
   p {
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 40px;
   }
 
   h3 {

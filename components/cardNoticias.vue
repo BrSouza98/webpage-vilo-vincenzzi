@@ -35,8 +35,6 @@
   </b-container>
 </template>
 
-<style scoped>
-</style>
 
 
 

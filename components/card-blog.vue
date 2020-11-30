@@ -28,4 +28,8 @@ export default {
   img{
     max-height: 200px;
   }
+
+  @media screen {
+    
+  }
 </style>

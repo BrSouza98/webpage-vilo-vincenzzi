@@ -1,6 +1,6 @@
 <template>
   <div id="card" class="shadow">
-    <b-container id="my-card">
+    <b-container fluid id="my-card">
       <div class="w-100 d-flex justify-content-center">
         <img :src="require(`~/assets/ui/${imagem}.png`)" alt="" />
       </div>
@@ -24,7 +24,7 @@ export default {
 $preto-opaco: rgba(0, 0, 0, 0.363);
 $azul: #3ea4bf;
 
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -51,4 +51,15 @@ p {
   min-height: 600px;
 }
 
+@media screen and (max-width: 790px) {
+  img {
+    max-height: 150px;
+  }
+
+  p {
+    padding: 5px;
+    margin: 5px;
+  }
+
+}
 </style>
