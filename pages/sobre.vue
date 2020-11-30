@@ -64,14 +64,14 @@
               >
                 <p>Educação infantil - Creche</p>
                 <p>Aulas no período da Manhã</p>
-                <p>Número de turmas 3</p>
+                <p>Número de turmas: 3</p>
                 <p>Média de alunos por turma: 15</p>
               </b-col>
 
               <b-col class="bordaArredondada my-3 mx-5">
                 <p>Educação infantil - Pré-escola</p>
                 <p>Aulas no período da Manhã</p>
-                <p>Número de turmas 2</p>
+                <p>Número de turmas: 2</p>
                 <p>Média de alunos por turma: 25</p>
               </b-col>
             </b-row>
