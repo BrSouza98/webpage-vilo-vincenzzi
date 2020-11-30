@@ -35,8 +35,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoVerde col-7">
+        <b-row cols="1" cols-md="2">
+          <b-col order="2" order-md="1" class="fundoVerde">
             <h3>
               "Feliz aquele que transfere o que sabe e aprende o que ensina."
               Cora Coralina.
@@ -59,7 +59,7 @@
             </p>
           </b-col>
 
-          <b-col class="fundoBranco col-5">
+          <b-col order="1" order-md="2" class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -77,8 +77,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoBranco col-5">
+        <b-row cols="1" cols-md="2">
+          <b-col class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -93,7 +93,7 @@
             </div>
           </b-col>
 
-          <b-col class="fundoVermelho col-7">
+          <b-col class="fundoVermelho">
             <h3>
               "Ninguém é tão grande que não possa aprender, nem tão pequeno que
               não possa ensina." Esopo.
@@ -111,8 +111,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoAzul col-7">
+        <b-row cols="1" cols-md="2">
+          <b-col order="2" order-md="1" class="fundoAzul">
             <h3>
               "Educação é aquilo que fica depois que você esquece o que a escola
               ensinou." Albert Einstein.
@@ -126,7 +126,7 @@
             <br>
           </b-col>
 
-          <b-col class="fundoBranco col-5">
+          <b-col order="1" order-md="2" class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -144,8 +144,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoBranco col-5">
+        <b-row cols="1" cols-md="2">
+          <b-col class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -160,7 +160,7 @@
             </div>
           </b-col>
 
-          <b-col class="fundoAmarelo col-7">
+          <b-col class="fundoAmarelo">
             <h3>
               "Educação não é preparação para a vida, é a própria vida."John
               Dewey.
@@ -184,8 +184,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoRosa col-7">
+        <b-row cols="1" cols-md="2">
+          <b-col order="2" order-md="1" class="fundoRosa">
             <h3>"Não se pode falar de educação sem amor." Paulo Freire.</h3>
             <p>
               Ludmila Carvalho Gambogi é professora do Jardim I - 1° Etapa.
@@ -203,7 +203,7 @@
             </p>
           </b-col>
 
-          <b-col class="fundoBranco col-5">
+          <b-col order="1" order-md="2" class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -221,8 +221,8 @@
       </b-container>
 
       <b-container fluid class="configuraçãoPadrao">
-        <b-row cols="2">
-          <b-col class="fundoBranco col-5">
+        <b-row cols="1" cols-md="2">
+          <b-col class="fundoBranco">
             <div
               class="d-flex flex-wrap align-items-center justify-content-center"
             >
@@ -237,7 +237,7 @@
             </div>
           </b-col>
 
-          <b-col class="fundoMarrom col-7">
+          <b-col class="fundoMarrom">
             <h3>
               "A função da educação é ensinar a pensar criticamente e
               intensamento." Martin Luther King.
@@ -407,12 +407,16 @@ b-container {
     .configuraçãoPadrao {
       img {
         border-radius: 3px;
-        width: 90%;
+        width: 40%;
       }
 
       h3 {
         font-weight: bolder;
-        font-size: 1.8em;
+        font-size: 1.3em;
+      }
+
+      p{
+        font-size: 1.2em;
       }
     }
   }
