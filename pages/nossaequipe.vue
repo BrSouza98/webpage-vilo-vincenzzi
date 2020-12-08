@@ -300,9 +300,8 @@ b-container {
   font-weight: bolder;
   img {
     border-radius: 3px;
-    width: 50%;
+    width: 55%;
   }
-
 
   h3 {
     font-weight: bolder;
@@ -312,7 +311,7 @@ b-container {
   }
 
   p{
-    margin: 20px;
+    margin: 10px;
   }
 }
 
