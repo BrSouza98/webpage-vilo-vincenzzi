@@ -300,7 +300,7 @@ b-container {
   font-weight: bolder;
   img {
     border-radius: 3px;
-    width: 55%;
+    width: 54%;
   }
 
   h3 {
