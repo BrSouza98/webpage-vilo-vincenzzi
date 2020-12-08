@@ -64,11 +64,11 @@
             >
               <img
                 class="mt-3 card-colaborador"
-                src="~/assets/Coordenadora.jpg"
+                src="~/assets/Coordenadora.png"
                 alt="Foto da coordenadora Daniela"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
-                Daniela - Coord. pedagoga
+                Daniela - Coord. pedagógica
               </h3>
             </div>
           </b-col>
@@ -83,7 +83,7 @@
             >
               <img
                 class="mt-3 card-colaborador"
-                src="~/assets/prof1.jpg"
+                src="~/assets/prof1.png"
                 alt="Foto da berçarista Cléo"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
@@ -131,7 +131,7 @@
             >
               <img
                 class="mt-3 card-colaborador"
-                src="~/assets/prof2.jpg"
+                src="~/assets/prof2.png"
                 alt="Foto da auxiliar infantil Sandra"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
@@ -150,7 +150,7 @@
             >
               <img
                 class="mt-3 card-colaborador"
-                src="~/assets/prof4.jpg"
+                src="~/assets/prof4.png"
                 alt="Foto da professora do Maternal 2 Rose"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
@@ -208,7 +208,7 @@
             >
               <img
                 class="mt-3 card-colaborador imgLud"
-                src="~/assets/ludimila.jpg"
+                src="~/assets/ludimila.png"
                 alt="Foto da professora do Jardim de Infacia 1 Ludmila Gambogi"
               />
               <h3 class="mt-3 w-100 d-flex justify-content-center">
@@ -227,10 +227,10 @@
             >
               <img
                 class="mt-3 card-colaborador"
-                src="~/assets/prof3.jpg"
+                src="~/assets/prof3.png"
                 alt="Foto do professor do Jardim de Infancia 2"
               />
-              <h3 class="mt-3 w-100 d-flex justify-content-center">
+              <h3 class="mt-3 w-100 d-flex justify-content-center position">
                 Danilo - Prof. Jardim de inf. II
               </h3>
             </div>
@@ -281,6 +281,7 @@ $borda: 2px solid #5e5e5e;
   height: 100%;
 }
 
+
 .Apresentacao {
   h1 {
     font-weight: bolder;
@@ -299,13 +300,9 @@ b-container {
   font-weight: bolder;
   img {
     border-radius: 3px;
-    width: 33%;
+    width: 50%;
   }
 
-  .imgLud {
-    width: 200px;
-    height: 270px;
-  }
 
   h3 {
     font-weight: bolder;
